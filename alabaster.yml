@@ -1,0 +1,247 @@
+information:
+  name: alabaster
+  background: light
+  author: "Thomas <thomasmattacchione@gmail.com>"
+
+palette:
+  black: "#000000"
+  cream_white: "#F7F7F7"
+
+  red: "#AA3731"
+  green: "#448C27"
+  yellow: "#feff00"
+  blue: "#325CC0"
+  light_blue: "#BFDBFE"
+  purple: "#7A3E9D"
+  orange: "#FFBC5D"
+  gray: "#777"
+  light_gray: "#f0f0f0"
+  med_gray: "#c6cbd2"
+  
+  # test what this does
+  bg2: "#feff00"
+
+highlights:
+  Normal: "black cream_white"
+
+  Comment: "red"
+  SpecialComment: "black"
+  Todo: "red"
+  
+  Constant: "purple"
+  Number: "purple"
+  Boolean: "purple"
+  Float: "purple"
+  Keyword: "purple"
+
+  Identifier: "blue"
+  Function: "blue"
+
+  String: "green"
+  
+
+  Character: "black"
+  Statement: "black"
+  Conditional: "black"
+  Repeat: "black"
+  Label: "black"
+  Operator: "black"
+  Exception: "black"
+  PreProc: "black"
+  Include: "black"
+  Define: "black"
+  Title: "black"
+  Macro: "black"
+  PreCondit: "black"
+  Type: "black"
+  StorageClass: "black"
+  Structure: "black"
+  Typedef: "black"
+  Special: "black"
+  MoreMsg: "black"
+  Error: "black"
+  WarningMsg: "black"
+  WildMenu: "black"
+  EndOfBuffer: "black"
+  # when selecting, will have a different black color than when not
+  # selected
+  # Underlined: "-"
+  SpellBad: "- - -"
+  Cursor: "- - r"
+  
+
+
+  ColorColumn: "- light_gray"
+  CursorLineNr: "black - b"
+  SignColumn: "- cream_white"
+  Conceal: "black"
+  CursorColumn: "- cream_white"
+  Directory: "blue"
+  DiffAdd: "cream_white yellow"
+  DiffChange: "yellow - u"
+  DiffDelete: "cream_white red"
+  DiffText: "cream_white yellow"
+  ErrorMsg: "red"
+  VertSplit: "gray"
+  Folded: "black"
+  FoldColumn: "black"
+  LineNr: "black"
+  MatchParen: "cream_white blue"
+  NonText: "black"
+  Pmenu: "black med_gray"
+  PmenuSel: "cream_white med_gray"
+  PmenuSbar: "- black"
+  PmenuThumb: "- black"
+  Question: "light_blue"
+  QuickFixLine: "cream_white yellow"
+
+  IncSearch: "cream_white orange"
+  Search: "cream_white orange"
+  
+  SpecialKey: "black"
+  SpellCap: "black"
+  SpellLocal: "black"
+  SpellRare: "black"
+
+  # airline NORMAL > SPELL ---- - UTF-8 > - -
+  StatusLineNC: "black med_gray"
+  # airline - space between two screens
+  StatusLine: "black blue"
+  # the middle bit
+  CursorLine: "black light_gray"
+
+  # characters in the tabine
+  TabLine: "black"
+  # background color when selecting
+  TabLineSel: "light_gray"
+  TabLineFill: "- cream_white"
+  Terminal: "black cream_white"
+
+  # selection
+  Visual: "- light_blue"
+  VisualNOS: "- cream_white"
+  
+
+  # -- Start Treesitter --
+  # Misc
+  TSError: "black"
+  TSPunctDelimiter: "black"
+  TSPunctBracket: "black"
+  TSPunctSpecial: "black"
+
+  # Constants
+  TSConstant: "purple"
+  TSConstBuiltin: "black"
+
+  # -- These things overrides all palletes above
+  TSString: "green"
+  TSStringEscape: "black"
+  TSCharacter: "black"
+  TSNumber: "purple"
+  # TSBoolean: "blue"
+  # TSFloat: "black"
+  # TSAnnotation: "black"
+  # TSAttribute: "orange"
+  TSInclude: "black"
+
+  # namespace, function names
+  TSNamespace: "blue"
+
+  # Functions
+  TSFuncBuiltin: "black"
+  TSFunction: "blue"
+  TSFuncMacro: "black"
+  TSParameter: "blue"
+  TSParameterReference: "blue"
+  TSMethod: "black"
+  TSField: "purple"
+  TSProperty: "blue"
+  TSConstructor: "purple"
+
+  # Keywords
+  TSConditional: "purple"
+  TSRepeat: "purple"
+  TSLabel: "blue"
+
+
+  TSKeyword: "blue"
+  TSKeywordFunction: "purple"
+  TSKeywordOperator: "blue"
+  TSOperator: "black"
+  TSException: "purple"
+  TSType: "black"
+  TSTypeBuiltin: "blue"
+  TSStructure: "blue"
+
+  # Variable
+  TSVariable: "blue"
+  TSVariableBuiltin: "blue"
+
+  # Text
+  TSText: "black"
+  TSStrong: "black"
+  TSEmphasis: "black"
+  TSUnderline: "black"
+  TSTitle: "black"
+  TSLiteral: "black"
+  TSURI: "black"
+
+  # Tags
+  TSTag: "blue"
+  TSTagDelimiter: "black"
+
+
+  # -- END Treesitter --
+
+  # -- START Languages --
+  # HTML (keep consistent with Markdown, below)
+  # htmlArg: "black"
+  # htmlBold: "black - b"
+  # htmlEndTag: "black"
+  # htmlH1: "black"
+  # htmlH2: "black"
+  # htmlH3: "black"
+  # htmlH4: "black"
+  # htmlH5: "black"
+  # htmlH6: "black"
+  # htmlItalic: "purple - i"
+  # htmlLink: "black - u"
+  # htmlSpecialChar: "yellow"
+  # htmlSpecialTagName: "blue"
+  # htmlTag: "blue"
+  # htmlTagN: "orange"
+  # htmlTagName: "orange"
+  # htmlTitle: "black"
+
+
+  # ========================================================
+  # Markdown
+  # ========================================================
+  
+  # Markdown (keep consistent with HTML, above)
+  markdownTSPunctDelimiter: "light_gray"
+  markdownTSPunctSpecial: "light_gray"
+  markdownTSTitle: "blue"
+  markdownTSEmphasis: "purple"
+  markdownTSLiteral: "purple"
+  markdownTSStrong: "purple"
+
+
+  # ========================================================
+  # Clojure
+  # ========================================================
+
+  # ns jed.app-server, func names
+  clojureTSNamespace: "blue"
+
+  # keywords
+  clojureTSSymbol: "purple"
+
+  # :as ns, defn-, macros, conditionals
+  clojureTSConditional: "black"
+  clojureTSVariable: "black"
+  clojureTSKeywordFunction: "black"
+  clojureTSFuncMacro: "black"
+  clojureTSType: "black"
+  clojureTSKeyword: "black"
+  clojureTSException: "black"

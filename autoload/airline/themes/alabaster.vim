@@ -15,11 +15,15 @@ function! airline#themes#alabaster#refresh()
   let modified_group = [M0[0], '', M0[2], '', '']
   let warning_group = airline#themes#get_highlight2(['Normal', 'bg'], ['Question', 'fg'])
   let error_group = airline#themes#get_highlight2(['Normal', 'bg'], ['WarningMsg', 'fg'])
+  
 
   let s:N1 = airline#themes#get_highlight2(['Normal', 'bg'], ['StatusLineNC', 'bg'])
   let s:N2 = airline#themes#get_highlight2(['StatusLineNC', 'bg'], ['Pmenu', 'bg'])
   let s:N3 = airline#themes#get_highlight2(['StatusLineNC', 'bg'], ['CursorLine', 'bg'])
+
   let g:airline#themes#alabaster#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
+
+
   let g:airline#themes#alabaster#palette.normal_modified = { 'airline_c': modified_group }
   let g:airline#themes#alabaster#palette.normal.airline_warning = warning_group
   let g:airline#themes#alabaster#palette.normal_modified.airline_warning = warning_group
@@ -63,6 +67,7 @@ function! airline#themes#alabaster#refresh()
   let g:airline#themes#alabaster#palette.accents = { 'red': accents_group }
 
   let s:TF = airline#themes#get_highlight2(['Normal', 'bg'], ['Normal', 'bg'])
+  
   let g:airline#themes#alabaster#palette.tabline = {
     \ 'airline_tab':  s:N2,
     \ 'airline_tabsel':  s:N1,
@@ -76,4 +81,3 @@ endfunction
 
 call airline#themes#alabaster#refresh()
 
-" vim: set sw=2 ts=2 sts=2 et tw=80 ft=vim fdm=marker:
