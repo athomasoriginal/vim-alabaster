@@ -1,11 +1,19 @@
 # Vim Alabaster Theme
 
-**WARNING**: Don't use this yet.  I'm just a toy project for now.
+> **WARNING**: This is incomplete and many changes likely to occur in the coming weeks. Please do not use if you're looking 
+> for something stable.
+
+This is a port of [Tonsky's Alabaster Theme].  At this point in time it's incomplete.  The goals I would like to achieve:
+
+- [ ] Alabaster light theme (partial)
+- [ ] Alabaster dark theme
+- [ ] Alabaster airline theme (partial)
+
+
+Also note that I am assuming that users are using nvim 6 min and tree-sitter.  This has only been tested in this scenario.
 
 
 ## Install
-
-**NOTE:** These color scheme assume you're using tree-sitter.
 
 - Add `vim-alabaster` to your vim-plug config
   ```bash
@@ -15,6 +23,9 @@
    ...
   call plug#end()
   ```
+- Open nvim
+- Ensure that you've installed the tree-sitter grammars you need
+
 
 ## Editing Colors
 
@@ -26,9 +37,11 @@
   ```
   > Run from the root of the project
 
+
 ## Iterm2 Users
 
 - The cursor colour is controlled in iterm2 settings
+
 
 ## Project Layout
 
@@ -36,4 +49,5 @@
   - ruby code to dynamically generate a `.vim` syntax highlighting file.  See [vim-felipic] for the original source.
 
 
+[Tonsky's Alabaster Theme]: https://github.com/tonsky/sublime-scheme-alabaster
 [vim-felipic]: https://github.com/felipec/vim-felipec
