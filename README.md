@@ -5,12 +5,25 @@
 
 This is a port of [Tonsky's Alabaster Theme].  At this point in time it's incomplete.  The goals I would like to achieve:
 
-- [ ] Alabaster light theme (partial)
+- [ ] Alabaster light theme (current progress: partial)
+  - [ ] JS Syntax
+  - [ ] Bash Syntax
+  - [ ] Clojure Syntax (current progress: partial)
+  - [ ] Rust Syntax
+  - [ ] Markdown Syntax
+  - [ ] Alabaster airline (current progress: partial)
 - [ ] Alabaster dark theme
-- [ ] Alabaster airline theme (partial)
+  - [ ] JS Syntax
+  - [ ] Bash Syntax
+  - [ ] Clojure Syntax
+  - [ ] Rust Syntax
+  - [ ] Markdown Syntax
+  - [ ] Alabaster airline (current progress: partial)
+  - Our background color is the gruvbox which is different from sublime Alabaster dark.  Feels a little softer.
+- [ ] Polish LSP colors
 
 
-Also note that I am assuming that users are using nvim 6 min and tree-sitter.  This has only been tested in this scenario.
+Also note that i'm assuming that users are using nvim 6 min and tree-sitter.  This has only been tested in this scenario.
 
 
 ## Install
@@ -22,6 +35,11 @@ Also note that I am assuming that users are using nvim 6 min and tree-sitter.  T
    Plug 'athomasoriginal/vim-alabaster'
    ...
   call plug#end()
+
+  
+  colorscheme alabaster
+  # or
+  colorscheme alabaster-dark
   ```
 - Open nvim
 - Ensure that you've installed the tree-sitter grammars you need
