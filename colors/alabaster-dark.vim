@@ -59,8 +59,8 @@ hi FoldColumn guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=N
 hi LineNr guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi MatchParen guifg=#0d1116 ctermfg=233 guibg=#5dafec ctermbg=75 gui=NONE cterm=NONE
 hi NonText guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Pmenu guifg=#cecece ctermfg=252 guibg=#c6cbd2 ctermbg=252 gui=NONE cterm=NONE
-hi PmenuSel guifg=#0d1116 ctermfg=233 guibg=#c6cbd2 ctermbg=252 gui=NONE cterm=NONE
+hi Pmenu guifg=#cecece ctermfg=252 guibg=#0d1116 ctermbg=233 gui=NONE cterm=NONE
+hi PmenuSel guifg=NONE ctermfg=NONE guibg=#204273 ctermbg=24 gui=NONE cterm=NONE
 hi PmenuSbar guifg=NONE ctermfg=NONE guibg=#cecece ctermbg=252 gui=NONE cterm=NONE
 hi PmenuThumb guifg=NONE ctermfg=NONE guibg=#cecece ctermbg=252 gui=NONE cterm=NONE
 hi Question guifg=#d787cd ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

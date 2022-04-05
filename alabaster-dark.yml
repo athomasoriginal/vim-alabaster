@@ -107,10 +107,12 @@ highlights:
   LineNr: "black"
   MatchParen: "cream_white blue"
   NonText: "black"
-  Pmenu: "black med_gray"
-  PmenuSel: "cream_white med_gray"
+  # tab autocomplete
+  Pmenu: "black cream_white"
+  PmenuSel: "- light_blue"
   PmenuSbar: "- black"
   PmenuThumb: "- black"
+
   Question: "purple"
   QuickFixLine: "cream_white yellow"
 
