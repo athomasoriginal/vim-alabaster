@@ -123,6 +123,7 @@ hi TSLiteral guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NO
 hi TSURI guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSTag guifg=#5dafec ctermfg=75 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSTagDelimiter guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TelescopeMatching guifg=#ffbc5d ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownTSPunctDelimiter guifg=#383838 ctermfg=237 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownTSPunctSpecial guifg=#383838 ctermfg=237 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownTSTitle guifg=#5dafec ctermfg=75 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
