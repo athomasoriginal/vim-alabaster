@@ -24,7 +24,8 @@ palette:
   # function names
   blue: "#5dafec"
   # select, and a bit of airline
-  light_blue: "#373737"
+  light_blue: "#204273"
+
   # constants
   purple: "#d787cd"
 
@@ -34,7 +35,7 @@ palette:
   # e.g. vertical column column, asteriks & #'s in markdown
   light_gray: "#383838"
   med_gray: "#c6cbd2"
-  
+
   # test what this does
   bg2: "#feff00"
 
@@ -44,7 +45,7 @@ highlights:
   Comment: "yellow"
   SpecialComment: "black"
   Todo: "yellow"
-  
+
   Constant: "purple"
   Number: "purple"
   Boolean: "purple"
@@ -55,7 +56,7 @@ highlights:
   Function: "blue"
 
   String: "green"
-  
+
 
   Character: "black"
   Statement: "black"
@@ -85,7 +86,7 @@ highlights:
   # Underlined: "-"
   SpellBad: "- - -"
   Cursor: "- - r"
-  
+
 
 
   ColorColumn: "- light_gray"
@@ -114,7 +115,7 @@ highlights:
 
   IncSearch: "cream_white orange"
   Search: "cream_white orange"
-  
+
   SpecialKey: "black"
   SpellCap: "black"
   SpellLocal: "black"
@@ -137,7 +138,7 @@ highlights:
   # selection
   Visual: "- light_blue"
   VisualNOS: "- cream_white"
-  
+
 
   # -- Start Treesitter --
   # Misc
@@ -234,7 +235,7 @@ highlights:
   # ========================================================
   # Markdown
   # ========================================================
-  
+
   # Markdown (keep consistent with HTML, above)
   markdownTSPunctDelimiter: "light_gray"
   markdownTSPunctSpecial: "light_gray"

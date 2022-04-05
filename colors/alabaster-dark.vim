@@ -78,7 +78,7 @@ hi TabLine guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TabLineSel guifg=#383838 ctermfg=237 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TabLineFill guifg=NONE ctermfg=NONE guibg=#282828 ctermbg=235 gui=NONE cterm=NONE
 hi Terminal guifg=#cecece ctermfg=252 guibg=#282828 ctermbg=235 gui=NONE cterm=NONE
-hi Visual guifg=NONE ctermfg=NONE guibg=#373737 ctermbg=237 gui=NONE cterm=NONE
+hi Visual guifg=NONE ctermfg=NONE guibg=#204273 ctermbg=24 gui=NONE cterm=NONE
 hi VisualNOS guifg=NONE ctermfg=NONE guibg=#282828 ctermbg=235 gui=NONE cterm=NONE
 hi TSError guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSPunctDelimiter guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
