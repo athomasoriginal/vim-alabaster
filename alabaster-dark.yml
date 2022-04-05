@@ -14,8 +14,8 @@ information:
 palette:
   # foreground & most all code
   black: "#CECECE"
-  # background - @todo rename this!
-  cream_white: "#282828"
+  # background - @todo rename this as it's now black!
+  cream_white: "#0d1116"
   # comments
   yellow: "#fbbd2e"
   red: "#AA3731"
@@ -23,7 +23,8 @@ palette:
   green: "#689d6a"
   # function names
   blue: "#5dafec"
-  # select, and a bit of airline
+  # select, and a bit of airline, and the popover window active background
+  # color when searching for files
   light_blue: "#204273"
 
   # constants
