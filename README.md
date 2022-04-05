@@ -1,6 +1,6 @@
 # Vim Alabaster Theme
 
-> **WARNING**: This is incomplete and many changes likely to occur in the coming weeks. Please do not use if you're looking 
+> **WARNING**: This is incomplete and many changes likely to occur in the coming weeks. Please do not use if you're looking
 > for something stable.
 
 This is a port of [Tonsky's Alabaster Theme].  At this point in time it's incomplete.  The goals I would like to achieve:
@@ -36,7 +36,7 @@ Also note that i'm assuming that users are using nvim 6 min and tree-sitter.  Th
    ...
   call plug#end()
 
-  
+
   colorscheme alabaster
   # or
   colorscheme alabaster-dark
@@ -60,6 +60,11 @@ Also note that i'm assuming that users are using nvim 6 min and tree-sitter.  Th
 
 - The cursor colour is controlled in iterm2 settings
 
+## Customization Tips
+
+- [Modifying Color Scheme Best Practices]
+  - The color scheme not exactly right?  This guide can help in allowing you
+    to customize for yourself before suggesting an upstream change.
 
 ## Project Layout
 
@@ -69,3 +74,4 @@ Also note that i'm assuming that users are using nvim 6 min and tree-sitter.  Th
 
 [Tonsky's Alabaster Theme]: https://github.com/tonsky/sublime-scheme-alabaster
 [vim-felipic]: https://github.com/felipec/vim-felipec
+[Modifying Color Scheme Best Practices]: https://gist.github.com/romainl/379904f91fa40533175dfaec4c833f2f

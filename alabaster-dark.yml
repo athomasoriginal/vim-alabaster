@@ -107,7 +107,8 @@ highlights:
   LineNr: "black"
   MatchParen: "cream_white blue"
   NonText: "black"
-  # tab autocomplete
+
+  # tab autocomplete popover
   Pmenu: "black cream_white"
   PmenuSel: "- light_blue"
   PmenuSbar: "- black"
