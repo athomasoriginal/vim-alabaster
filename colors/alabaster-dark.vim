@@ -6,9 +6,9 @@ if exists('syntax_on')
 endif
 let g:colors_name='alabaster-dark'
 hi Normal guifg=#cecece ctermfg=252 guibg=#0d1116 ctermbg=233 gui=NONE cterm=NONE
-hi Comment guifg=#fbbd2e ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Comment guifg=#dfdf82 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpecialComment guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Todo guifg=#fbbd2e ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Todo guifg=#dfdf82 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Constant guifg=#d787cd ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Number guifg=#d787cd ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Boolean guifg=#d787cd ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -48,10 +48,10 @@ hi SignColumn guifg=NONE ctermfg=NONE guibg=#0d1116 ctermbg=233 gui=NONE cterm=N
 hi Conceal guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CursorColumn guifg=NONE ctermfg=NONE guibg=#0d1116 ctermbg=233 gui=NONE cterm=NONE
 hi Directory guifg=#5dafec ctermfg=75 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi DiffAdd guifg=#0d1116 ctermfg=233 guibg=#fbbd2e ctermbg=214 gui=NONE cterm=NONE
-hi DiffChange guifg=#fbbd2e ctermfg=214 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi DiffAdd guifg=#0d1116 ctermfg=233 guibg=#dfdf82 ctermbg=186 gui=NONE cterm=NONE
+hi DiffChange guifg=#dfdf82 ctermfg=186 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi DiffDelete guifg=#0d1116 ctermfg=233 guibg=#aa3731 ctermbg=131 gui=NONE cterm=NONE
-hi DiffText guifg=#0d1116 ctermfg=233 guibg=#fbbd2e ctermbg=214 gui=NONE cterm=NONE
+hi DiffText guifg=#0d1116 ctermfg=233 guibg=#dfdf82 ctermbg=186 gui=NONE cterm=NONE
 hi ErrorMsg guifg=#aa3731 ctermfg=131 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VertSplit guifg=#696969 ctermfg=242 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Folded guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -64,7 +64,7 @@ hi PmenuSel guifg=#0d1116 ctermfg=233 guibg=#c6cbd2 ctermbg=252 gui=NONE cterm=N
 hi PmenuSbar guifg=NONE ctermfg=NONE guibg=#cecece ctermbg=252 gui=NONE cterm=NONE
 hi PmenuThumb guifg=NONE ctermfg=NONE guibg=#cecece ctermbg=252 gui=NONE cterm=NONE
 hi Question guifg=#d787cd ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi QuickFixLine guifg=#0d1116 ctermfg=233 guibg=#fbbd2e ctermbg=214 gui=NONE cterm=NONE
+hi QuickFixLine guifg=#0d1116 ctermfg=233 guibg=#dfdf82 ctermbg=186 gui=NONE cterm=NONE
 hi IncSearch guifg=#0d1116 ctermfg=233 guibg=#ffbc5d ctermbg=215 gui=NONE cterm=NONE
 hi Search guifg=#0d1116 ctermfg=233 guibg=#ffbc5d ctermbg=215 gui=NONE cterm=NONE
 hi SpecialKey guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
