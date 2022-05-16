@@ -36,11 +36,11 @@ hi Structure guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NO
 hi Typedef guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Special guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi MoreMsg guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Error guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Error guifg=#d787cd ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi WarningMsg guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi WildMenu guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi EndOfBuffer guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi SpellBad guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi SpellBad guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi Cursor guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=reverse cterm=reverse
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#383838 ctermbg=237 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=bold cterm=bold
@@ -68,9 +68,9 @@ hi QuickFixLine guifg=#0d1116 ctermfg=233 guibg=#dfdf82 ctermbg=186 gui=NONE cte
 hi IncSearch guifg=#0d1116 ctermfg=233 guibg=#ffbc5d ctermbg=215 gui=NONE cterm=NONE
 hi Search guifg=#0d1116 ctermfg=233 guibg=#ffbc5d ctermbg=215 gui=NONE cterm=NONE
 hi SpecialKey guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi SpellCap guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi SpellLocal guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi SpellRare guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi SpellCap guifg=#aa3731 ctermfg=131 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi SpellLocal guifg=#aa3731 ctermfg=131 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi SpellRare guifg=#aa3731 ctermfg=131 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi StatusLineNC guifg=#cecece ctermfg=252 guibg=#c6cbd2 ctermbg=252 gui=NONE cterm=NONE
 hi StatusLine guifg=#cecece ctermfg=252 guibg=#5dafec ctermbg=75 gui=NONE cterm=NONE
 hi CursorLine guifg=#cecece ctermfg=252 guibg=#383838 ctermbg=237 gui=NONE cterm=NONE
@@ -80,7 +80,7 @@ hi TabLineFill guifg=NONE ctermfg=NONE guibg=#0d1116 ctermbg=233 gui=NONE cterm=
 hi Terminal guifg=#cecece ctermfg=252 guibg=#0d1116 ctermbg=233 gui=NONE cterm=NONE
 hi Visual guifg=NONE ctermfg=NONE guibg=#204273 ctermbg=24 gui=NONE cterm=NONE
 hi VisualNOS guifg=NONE ctermfg=NONE guibg=#0d1116 ctermbg=233 gui=NONE cterm=NONE
-hi TSError guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSError guifg=#d787cd ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSPunctDelimiter guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSPunctBracket guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSPunctSpecial guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

@@ -5,6 +5,7 @@
 #   * comments -> yellow over red
 #   * select   -> maybe dark blue over light_blue
 #   * question -> purple over light_blue
+#
 # ====================
 information:
   name: alabaster-dark
@@ -78,14 +79,15 @@ highlights:
   Typedef: "black"
   Special: "black"
   MoreMsg: "black"
-  Error: "black"
+  Error: "purple"
   WarningMsg: "black"
   WildMenu: "black"
   EndOfBuffer: "black"
   # when selecting, will have a different black color than when not
   # selected
   # Underlined: "-"
-  SpellBad: "- - -"
+  # Word not recognized
+  SpellBad: "- - u"
   Cursor: "- - r"
 
 
@@ -121,9 +123,12 @@ highlights:
   Search: "cream_white orange"
 
   SpecialKey: "black"
-  SpellCap: "black"
-  SpellLocal: "black"
-  SpellRare: "black"
+  # word not capitalized
+  SpellCap: "red - u"
+  # word not spelled correctly for current region
+  SpellLocal: "red - u"
+  # rare word
+  SpellRare: "red - u"
 
   # airline NORMAL > SPELL ---- - UTF-8 > - -
   StatusLineNC: "black med_gray"
@@ -146,7 +151,7 @@ highlights:
 
   # -- Start Treesitter --
   # Misc
-  TSError: "black"
+  TSError: "purple"
   TSPunctDelimiter: "black"
   TSPunctBracket: "black"
   TSPunctSpecial: "black"
