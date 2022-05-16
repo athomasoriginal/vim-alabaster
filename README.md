@@ -56,7 +56,7 @@ This has only been tested in this scenario.
 - Edit said `yml` file
 - Build colors
   ```bash
-  ./generate color-file.yml > ./colors/color-file.yml
+  ./generate alabaster-dark.yml > ./colors/alabaster-dark.vim
   ```
   > Run from the root of the project
 
