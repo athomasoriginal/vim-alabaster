@@ -1,9 +1,12 @@
 # Vim Alabaster Theme
 
-> **WARNING**: This is incomplete and many changes likely to occur in the coming weeks. Please do not use if you're looking
-> for something stable.
+recieved
 
-This is a port of [Tonsky's Alabaster Theme].  At this point in time it's incomplete.  The goals I would like to achieve:
+> **WARNING**: This is incomplete and many changes likely to occur in the coming
+> weeks. Please do not use if you're looking for something stable.
+
+This is a port of [Tonsky's Alabaster Theme].  At this point in time it's
+incomplete.  The goals I would like to achieve:
 
 - [ ] Alabaster light theme (current progress: partial)
   - [ ] JS Syntax
@@ -19,11 +22,13 @@ This is a port of [Tonsky's Alabaster Theme].  At this point in time it's incomp
   - [ ] Rust Syntax
   - [ ] Markdown Syntax
   - [ ] Alabaster airline (current progress: partial)
-  - Our background color is the gruvbox which is different from sublime Alabaster dark.  Feels a little softer.
+  - Our background color is the gruvbox which is different from sublime
+    Alabaster dark.  Feels a little softer.
 - [ ] Polish LSP colors
 
 
-Also note that i'm assuming that users are using nvim 6 min and tree-sitter.  This has only been tested in this scenario.
+Also note that i'm assuming that users are using nvim 6 min and tree-sitter.
+This has only been tested in this scenario.
 
 
 ## Install
@@ -69,7 +74,8 @@ Also note that i'm assuming that users are using nvim 6 min and tree-sitter.  Th
 ## Project Layout
 
 - `generate` + `lib/`
-  - ruby code to dynamically generate a `.vim` syntax highlighting file.  See [vim-felipic] for the original source.
+  - ruby code to dynamically generate a `.vim` syntax highlighting file.  See
+    [vim-felipic] for the original source.
 
 
 [Tonsky's Alabaster Theme]: https://github.com/tonsky/sublime-scheme-alabaster
