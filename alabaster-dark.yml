@@ -132,8 +132,8 @@ highlights:
 
   # airline NORMAL > SPELL ---- - UTF-8 > - -
   StatusLineNC: "black med_gray"
-  # airline - space between two screens
-  StatusLine: "black blue"
+  # statusline - the inactive windows line
+  StatusLine: "black gray"
   # the middle bit
   CursorLine: "black light_gray"
 
