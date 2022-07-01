@@ -133,7 +133,7 @@ highlights:
   # airline NORMAL > SPELL ---- - UTF-8 > - -
   StatusLineNC: "black med_gray"
   # statusline - the inactive windows line
-  StatusLine: "black gray"
+  StatusLine: "black light_gray"
   # the middle bit
   CursorLine: "black light_gray"
 

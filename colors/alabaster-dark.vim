@@ -11,19 +11,19 @@ function! InsertStatuslineColor(mode)
     hi statusline guibg=#383838
 
   elseif a:mode == 'r'
-    hi statusline guibg=#5dafec
+    hi statusline guibg=#383838
   
   else
-    hi statusline guibg=#c6cbd2
+    hi statusline guibg=#383838
   endif
 endfunction
 
 au InsertEnter * call InsertStatuslineColor(v:insertmode)
 au InsertChange * call InsertStatuslineColor(v:insertmode)
-au InsertLeave * hi statusline guibg=#c6cbd2
+au InsertLeave * hi statusline guibg=#383838
 
 " default the statusline to green when entering Vim
-hi statusline guibg=#c6cbd2
+hi statusline guibg=#383838
 hi Normal guifg=#cecece ctermfg=252 guibg=#0d1116 ctermbg=233 gui=NONE cterm=NONE
 hi Comment guifg=#dfdf82 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpecialComment guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -91,7 +91,7 @@ hi SpellCap guifg=#aa3731 ctermfg=131 guibg=NONE ctermbg=NONE gui=underline cter
 hi SpellLocal guifg=#aa3731 ctermfg=131 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi SpellRare guifg=#aa3731 ctermfg=131 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi StatusLineNC guifg=#cecece ctermfg=252 guibg=#c6cbd2 ctermbg=252 gui=NONE cterm=NONE
-hi StatusLine guifg=#cecece ctermfg=252 guibg=#696969 ctermbg=242 gui=NONE cterm=NONE
+hi StatusLine guifg=#cecece ctermfg=252 guibg=#383838 ctermbg=237 gui=NONE cterm=NONE
 hi CursorLine guifg=#cecece ctermfg=252 guibg=#383838 ctermbg=237 gui=NONE cterm=NONE
 hi TabLine guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TabLineSel guifg=#383838 ctermfg=237 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

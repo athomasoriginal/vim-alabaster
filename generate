@@ -62,8 +62,8 @@ end
 
 $highlights = $highlights.map { |e| Highlight.new(*e) }
 $status_line_color_insert = get_color("light_gray")
-$status_line_color_r = get_color("blue")
-$status_line_color_default = get_color("med_gray")
+$status_line_color_r = get_color("light_gray")
+$status_line_color_default = get_color("light_gray")
 
 puts <<EOL
 " Maintainer: #{$information[:author]}
