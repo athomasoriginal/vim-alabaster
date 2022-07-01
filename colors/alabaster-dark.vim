@@ -5,6 +5,25 @@ if exists('syntax_on')
   syntax reset
 endif
 let g:colors_name='alabaster-dark'
+
+function! InsertStatuslineColor(mode)
+  if a:mode == 'i'
+    hi statusline guibg=#383838
+
+  elseif a:mode == 'r'
+    hi statusline guibg=#5dafec
+  
+  else
+    hi statusline guibg=#c6cbd2
+  endif
+endfunction
+
+au InsertEnter * call InsertStatuslineColor(v:insertmode)
+au InsertChange * call InsertStatuslineColor(v:insertmode)
+au InsertLeave * hi statusline guibg=#c6cbd2
+
+" default the statusline to green when entering Vim
+hi statusline guibg=#c6cbd2
 hi Normal guifg=#cecece ctermfg=252 guibg=#0d1116 ctermbg=233 gui=NONE cterm=NONE
 hi Comment guifg=#dfdf82 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpecialComment guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

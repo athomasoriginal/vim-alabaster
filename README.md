@@ -25,10 +25,19 @@ incomplete.  The goals I would like to achieve:
   - Our background color is the gruvbox which is different from sublime
     Alabaster dark.  Feels a little softer.
 - [ ] Polish LSP colors
+- [ ] Improve statusline coloring
+  - The statusline is currently colored via the `genereate` script.  Let's have
+    and easier way to handle this
 
 
 Also note that i'm assuming that users are using nvim 6 min and tree-sitter.
 This has only been tested in this scenario.
+
+- [Install]
+- [Build Colors]
+- [Editing Colors]
+- [Iterm2 Users]
+- [Project Layout]
 
 
 ## Install
@@ -50,7 +59,7 @@ This has only been tested in this scenario.
 - Ensure that you've installed the tree-sitter grammars you need
 
 
-## Editing Colors
+## Building Colors
 
 - Open the `yml` file of your choice
 - Edit said `yml` file
@@ -61,15 +70,17 @@ This has only been tested in this scenario.
   > Run from the root of the project
 
 
-## Iterm2 Users
+## Editing Colors
 
-- The cursor colour is controlled in iterm2 settings
-
-## Customization Tips
-
+- StatusLine
+  - There are different modes and we can color them via the `generate` script.
 - [Modifying Color Scheme Best Practices]
   - The color scheme not exactly right?  This guide can help in allowing you
     to customize for yourself before suggesting an upstream change.
+
+## Iterm2 Users
+
+- The cursor colour is controlled in iterm2 settings
 
 ## Project Layout
 
@@ -77,6 +88,12 @@ This has only been tested in this scenario.
   - ruby code to dynamically generate a `.vim` syntax highlighting file.  See
     [vim-felipic] for the original source.
 
+
+[Install]: #install
+[Build Colors]: #build-colors
+[Editing Colors]: #editing-colors
+[Iterm2 Users]: #iterm2-users
+[Project Layout]: #project-layout
 
 [Tonsky's Alabaster Theme]: https://github.com/tonsky/sublime-scheme-alabaster
 [vim-felipic]: https://github.com/felipec/vim-felipec
