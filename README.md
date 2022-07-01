@@ -8,6 +8,8 @@ recieved
 This is a port of [Tonsky's Alabaster Theme].  At this point in time it's
 incomplete.  The goals I would like to achieve:
 
+- [ ] Correct color names
+  - [ ] light_gray is darker than med_gray
 - [ ] Alabaster light theme (current progress: partial)
   - [ ] JS Syntax
   - [ ] Bash Syntax
