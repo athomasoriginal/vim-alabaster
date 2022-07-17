@@ -37,6 +37,7 @@ palette:
   # e.g. vertical column column, asteriks & #'s in markdown
   light_gray: "#383838"
   med_gray: "#c6cbd2"
+  green_gray: "#789395"
 
   # test what this does
   bg2: "#feff00"
@@ -251,13 +252,12 @@ highlights:
   # ========================================================
 
   # Markdown (keep consistent with HTML, above)
-  markdownTSPunctDelimiter: "light_gray"
-  markdownTSPunctSpecial: "light_gray"
+  markdownTSPunctDelimiter: "yellow"
+  markdownTSPunctSpecial: "green_gray"
   markdownTSTitle: "blue"
-  markdownTSEmphasis: "purple"
-  markdownTSLiteral: "purple"
-  markdownTSStrong: "purple"
-
+  markdown_inlineTSEmphasis: "green_gray"
+  markdown_inlineTSLiteral: "green_gray"
+  markdown_inlineTSStrong: "green_gray"
 
   # ========================================================
   # Clojure

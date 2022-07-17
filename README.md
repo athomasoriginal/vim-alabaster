@@ -23,6 +23,7 @@ incomplete.  The goals I would like to achieve:
   - [ ] Clojure Syntax
   - [ ] Rust Syntax
   - [ ] Markdown Syntax
+  - [ ] Better name for `gray_green`
   - [ ] Alabaster airline (current progress: partial)
   - Our background color is the gruvbox which is different from sublime
     Alabaster dark.  Feels a little softer.
@@ -84,12 +85,20 @@ This has only been tested in this scenario.
 
 - The cursor colour is controlled in iterm2 settings
 
+
 ## Project Layout
 
 - `generate` + `lib/`
   - ruby code to dynamically generate a `.vim` syntax highlighting file.  See
     [vim-felipic] for the original source.
 
+## Markdown Syntax Highlighting
+
+- Notice that `inline`, **emphasis** and _italics_ etc are the `green_gray`
+  - Tonsky's (sublime as the example) doesn't actually highlight the words
+    themselves, but rather the wrapping characters.  I switched to the words
+    themselves because I like them to standout as I often refer back to these
+    words to be sure they are indeed things that deserve "special".
 
 [Install]: #install
 [Build Colors]: #build-colors

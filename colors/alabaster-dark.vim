@@ -143,12 +143,12 @@ hi TSURI guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSTag guifg=#5dafec ctermfg=75 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSTagDelimiter guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TelescopeMatching guifg=#ffbc5d ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi markdownTSPunctDelimiter guifg=#383838 ctermfg=237 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi markdownTSPunctSpecial guifg=#383838 ctermfg=237 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdownTSPunctDelimiter guifg=#dfdf82 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdownTSPunctSpecial guifg=#789395 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownTSTitle guifg=#5dafec ctermfg=75 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi markdownTSEmphasis guifg=#d787cd ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi markdownTSLiteral guifg=#d787cd ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi markdownTSStrong guifg=#d787cd ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdown_inlineTSEmphasis guifg=#789395 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdown_inlineTSLiteral guifg=#789395 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdown_inlineTSStrong guifg=#789395 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi clojureTSNamespace guifg=#5dafec ctermfg=75 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi clojureTSSymbol guifg=#d787cd ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi clojureTSConditional guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
