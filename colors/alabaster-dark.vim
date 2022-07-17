@@ -12,7 +12,7 @@ function! InsertStatuslineColor(mode)
 
   elseif a:mode == 'r'
     hi statusline guibg=#383838
-  
+
   else
     hi statusline guibg=#383838
   endif
@@ -144,7 +144,9 @@ hi TSTag guifg=#5dafec ctermfg=75 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSTagDelimiter guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TelescopeMatching guifg=#ffbc5d ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownTSPunctDelimiter guifg=#e3e392 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdown_inlineTSPunctDelimiter guifg=#789395 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownTSPunctSpecial guifg=#789395 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdown_inlineTSPunctSpecial guifg=#789395 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownTSTitle guifg=#5dafec ctermfg=75 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdown_inlineTSEmphasis guifg=#789395 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdown_inlineTSLiteral guifg=#789395 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
