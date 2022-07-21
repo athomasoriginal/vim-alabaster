@@ -18,7 +18,7 @@ palette:
   # background - @todo rename this as it's now black!
   cream_white: "#0d1116"
   # comments
-  yellow: "#dfdf82"
+  yellow: "#e3e392"
   red: "#AA3731"
   # string
   green: "#9ed187"
