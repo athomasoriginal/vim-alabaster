@@ -35,7 +35,7 @@ hi Float guifg=#d787cd ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Keyword guifg=#d787cd ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Identifier guifg=#5dafec ctermfg=75 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Function guifg=#5dafec ctermfg=75 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi String guifg=#689d6a ctermfg=71 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi String guifg=#9ed187 ctermfg=150 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Character guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Statement guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Conditional guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -105,7 +105,7 @@ hi TSPunctBracket guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cte
 hi TSPunctSpecial guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSConstant guifg=#d787cd ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSConstBuiltin guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSString guifg=#689d6a ctermfg=71 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSString guifg=#9ed187 ctermfg=150 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSStringEscape guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSCharacter guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSNumber guifg=#d787cd ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
