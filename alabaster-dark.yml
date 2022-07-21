@@ -16,7 +16,7 @@ palette:
   # foreground & most all code
   black: "#CECECE"
   # background - @todo rename this as it's now black!
-  cream_white: "#0d1116"
+  cream_white: "#0c1415"
   # comments
   yellow: "#e3e392"
   red: "#AA3731"
