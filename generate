@@ -10,12 +10,14 @@ class Highlight
   def initialize(name, conf)
     @name = name.to_s
     return if !conf
-    fg, bg, style, sp = conf.split(' ')
+    fg, bg, style, sp, gsp = conf.split(' ')
     @params = {}
     @params.merge!(hi_color('fg', fg))
     @params.merge!(hi_color('bg', bg))
     @params.merge!(hi_style(style))
     @params.merge!(hi_color('sp', sp))
+    # guisp
+    @params.merge!(hi_color('sp', gsp))
   end
 
   def to_s
@@ -80,7 +82,7 @@ function! InsertStatuslineColor(mode)
 
   elseif a:mode == 'r'
     hi statusline guibg=#{$status_line_color_r}
-  
+
   else
     hi statusline guibg=#{$status_line_color_default}
   endif

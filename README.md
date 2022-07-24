@@ -80,10 +80,18 @@ This has only been tested in this scenario.
 - [Modifying Color Scheme Best Practices]
   - The color scheme not exactly right?  This guide can help in allowing you
     to customize for yourself before suggesting an upstream change.
+- Colors to consider
+  - Cursor color
+    - This should standout so you can quickly find where you are
+  - Search Highlight
+    - Note that it should complement the cursor color.
+  - Number column to the left
+    - We can fade these a little more.  Not a priority.
 
 ## Iterm2 Users
 
 - The cursor colour is controlled in iterm2 settings
+  - preferences >  profiles > colors > cursor colors
 
 
 ## Project Layout

@@ -89,9 +89,7 @@ highlights:
   # Underlined: "-"
   # Word not recognized
   SpellBad: "- - u"
-  TermCursor: "orange"
   Cursor: "- - r"
-
 
 
   ColorColumn: "- light_gray"
@@ -121,8 +119,8 @@ highlights:
   Question: "purple"
   QuickFixLine: "cream_white yellow"
 
-  IncSearch: "cream_white orange"
-  Search: "cream_white orange"
+  IncSearch: "orange - c - orange"
+  Search: "orange - c - orange"
 
   SpecialKey: "black"
   # word not capitalized

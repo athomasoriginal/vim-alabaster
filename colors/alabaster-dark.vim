@@ -60,7 +60,6 @@ hi WarningMsg guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=N
 hi WildMenu guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi EndOfBuffer guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpellBad guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
-hi TermCursor guifg=#ffbc5d ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Cursor guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=reverse cterm=reverse
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#383838 ctermbg=237 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=bold cterm=bold
@@ -85,8 +84,8 @@ hi PmenuSbar guifg=NONE ctermfg=NONE guibg=#cecece ctermbg=252 gui=NONE cterm=NO
 hi PmenuThumb guifg=NONE ctermfg=NONE guibg=#cecece ctermbg=252 gui=NONE cterm=NONE
 hi Question guifg=#d787cd ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi QuickFixLine guifg=#0c1415 ctermfg=233 guibg=#e3e392 ctermbg=186 gui=NONE cterm=NONE
-hi IncSearch guifg=#0c1415 ctermfg=233 guibg=#ffbc5d ctermbg=215 gui=NONE cterm=NONE
-hi Search guifg=#0c1415 ctermfg=233 guibg=#ffbc5d ctermbg=215 gui=NONE cterm=NONE
+hi IncSearch guifg=#ffbc5d ctermfg=215 guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl guisp=#ffbc5d
+hi Search guifg=#ffbc5d ctermfg=215 guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl guisp=#ffbc5d
 hi SpecialKey guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpellCap guifg=#aa3731 ctermfg=131 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi SpellLocal guifg=#aa3731 ctermfg=131 guibg=NONE ctermbg=NONE gui=underline cterm=underline
@@ -144,7 +143,6 @@ hi TSURI guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSTag guifg=#5dafec ctermfg=75 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSTagDelimiter guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TelescopeMatching guifg=#ffbc5d ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi markdownTSPunctDelimiter guifg=#e3e392 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdown_inlineTSPunctDelimiter guifg=#789395 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownTSPunctSpecial guifg=#789395 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdown_inlineTSPunctSpecial guifg=#789395 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
