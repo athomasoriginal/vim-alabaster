@@ -60,6 +60,7 @@ hi WarningMsg guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=N
 hi WildMenu guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi EndOfBuffer guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpellBad guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi TermCursor guifg=#ffbc5d ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Cursor guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=reverse cterm=reverse
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#383838 ctermbg=237 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=bold cterm=bold

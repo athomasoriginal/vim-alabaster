@@ -89,6 +89,7 @@ highlights:
   # Underlined: "-"
   # Word not recognized
   SpellBad: "- - u"
+  TermCursor: "orange"
   Cursor: "- - r"
 
 
