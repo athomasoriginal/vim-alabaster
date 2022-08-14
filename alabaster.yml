@@ -219,12 +219,21 @@ highlights:
   # ========================================================
 
   # Markdown (keep consistent with HTML, above)
-  markdownTSPunctDelimiter: "light_gray"
+  #markdownTSPunctDelimiter: "light_gray"
+  #markdownTSPunctSpecial: "light_gray"
+  #markdownTSTitle: "blue"
+  #markdownTSEmphasis: "purple"
+  #markdownTSLiteral: "purple"
+  #markdownTSStrong: "purple"
+
+  # Markdown (keep consistent with HTML, above)
+  markdown_inlineTSPunctDelimiter: "light_gray"
   markdownTSPunctSpecial: "light_gray"
+  markdown_inlineTSPunctSpecial: "light_gray"
   markdownTSTitle: "blue"
-  markdownTSEmphasis: "purple"
-  markdownTSLiteral: "purple"
-  markdownTSStrong: "purple"
+  markdown_inlineTSEmphasis: "purple"
+  markdown_inlineTSLiteral: "purple"
+  markdown_inlineTSStrong: "purple"
 
 
   # ========================================================
