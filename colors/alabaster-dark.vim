@@ -143,6 +143,17 @@ hi TSURI guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSTag guifg=#5dafec ctermfg=75 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSTagDelimiter guifg=#cecece ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TelescopeMatching guifg=#ffbc5d ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+
+"" MANUAL
+hi title guifg=#5dafec ctermfg=75 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi special guifg=#789395 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi delimiter guifg=#789395 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @text.todo.unchecked guifg=#789395 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @text.todo.checked guifg=#789395 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+"" text inside of the [] for markdown, but much whiter than the other white
+hi @text.reference guifg=white ctermfg=white guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @text.literal guifg=#789395 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @text.strong guifg=#789395 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdown_inlineTSPunctDelimiter guifg=#789395 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownTSPunctSpecial guifg=#789395 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdown_inlineTSPunctSpecial guifg=#789395 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

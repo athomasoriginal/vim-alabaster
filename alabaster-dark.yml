@@ -251,6 +251,9 @@ highlights:
   # ========================================================
 
   # Markdown (keep consistent with HTML, above)
+  title: "blue"
+  special: "green_gray"
+  delimiter: "green_gray"
   markdown_inlineTSPunctDelimiter: "green_gray"
   markdownTSPunctSpecial: "green_gray"
   markdown_inlineTSPunctSpecial: "green_gray"
