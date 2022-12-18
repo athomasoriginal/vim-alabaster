@@ -1,0 +1,23 @@
+{:theme
+ {:name        "alabaster-dark"
+  :languages   "Markdown, Clojure"
+  :maintainer  "Thomas Mattacchione"
+  :last-change "Dec 18, 2022"
+  :type        "dark"}
+
+ :colors
+ {:white      "#ffffff"
+  :blue       "#5dafec"
+  :green-gray "#789395"
+  :light-gray "#383838"}
+
+ :highlights
+ {"statusline"                :light-gray
+  "title"                     :blue
+  "special"                   :green-gray
+  "delimiter"                 :green-gray
+  "@text.todo.unchecked"      :green-gray
+  "@text.todo.check"          :green-gray
+  "@text.reference"           :white
+  "@text.literal"             :green-gray
+  "@text.strong"              {:color :green-gray :gui "bold" :cterm "bold"}}}

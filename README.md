@@ -1,14 +1,12 @@
 # Vim Alabaster Theme
 
-recieved
-
 > **WARNING**: This is incomplete and many changes likely to occur in the coming
 > weeks. Please do not use if you're looking for something stable.
 
 This is a port of [Tonsky's Alabaster Theme].  At this point in time it's
 incomplete.  The goals I would like to achieve:
 
-- [ ] Correct color names
+- [x] Correct color names
   - [ ] light_gray is darker than med_gray
 - [ ] Alabaster light theme (current progress: partial)
   - [ ] JS Syntax
@@ -31,7 +29,9 @@ incomplete.  The goals I would like to achieve:
 - [ ] Improve statusline coloring
   - The statusline is currently colored via the `genereate` script.  Let's have
     and easier way to handle this
-
+- Custom Syntax File Builder
+  - [ ] Explore nicer approach to building/writing strings
+  - [ ] Add fn to convert hex to x256 - see `highlight-config`
 
 Also note that i'm assuming that users are using nvim 6 min and tree-sitter.
 This has only been tested in this scenario.
@@ -46,7 +46,7 @@ This has only been tested in this scenario.
 ## Install
 
 - Add `vim-alabaster` to your vim-plug config
-  ```bash
+  ```vim
   call plug#begin('~/.vim/plugged')
    ...
    Plug 'athomasoriginal/vim-alabaster'
@@ -64,13 +64,14 @@ This has only been tested in this scenario.
 
 ## Building Colors
 
-- Open the `yml` file of your choice
-- Edit said `yml` file
+- Open the `edn` file of your choice
+- Edit said `edn` file
 - Build colors
-  ```bash
-  ./generate alabaster-dark.yml > ./colors/alabaster-dark.vim
+  ```command
+  ./build.clj dark.edn
   ```
-  > Run from the root of the project
+  > Run from the root of the project.  We assume you've installed [Babashka].
+  > `build.clj` expects to be passed the name of a configuration file.
 
 
 ## Editing Colors
@@ -96,9 +97,9 @@ This has only been tested in this scenario.
 
 ## Project Layout
 
-- `generate` + `lib/`
-  - ruby code to dynamically generate a `.vim` syntax highlighting file.  See
-    [vim-felipic] for the original source.
+- `build.clj`
+  - A [Babashka] script to dynamically generate `.vim` syntax file from an
+    `edn` config file.  Loosely ported from [vim-felipic].
 
 ## Markdown Syntax Highlighting
 
@@ -117,3 +118,4 @@ This has only been tested in this scenario.
 [Tonsky's Alabaster Theme]: https://github.com/tonsky/sublime-scheme-alabaster
 [vim-felipic]: https://github.com/felipec/vim-felipec
 [Modifying Color Scheme Best Practices]: https://gist.github.com/romainl/379904f91fa40533175dfaec4c833f2f
+[Babashka]: https://github.com/babashka/babashka#quickstart
