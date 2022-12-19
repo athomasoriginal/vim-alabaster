@@ -60,7 +60,7 @@
 
 (defn set-background-color
   [background-type]
-  (str "set background=" background-type "\n\n"))
+  (str "set background=" background-type " \n\n"))
 
 (def clear-colors
   (str "hi clear \n\n"))

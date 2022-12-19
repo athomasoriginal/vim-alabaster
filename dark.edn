@@ -6,18 +6,142 @@
   :type        "dark"}
 
  :colors
- {:white      "#ffffff"
-  :blue       "#5dafec"
-  :green-gray "#789395"
-  :light-gray "#383838"}
+ {:white        "#CECECE"
+  :blue         "#5dafec"
+  :black        "#0c1415"
+  :yellow       "#e3e392"
+  :red          "#AA3731"
+  :green        "#9ed187"
+  :light-blue   "#204273"
+  :purple       "#d787cd"
+  :orange       "#FFBC5D"
+  :gray         "#696969"
+  ;; @note vertical column column, asteriks & #'s in markdown
+  :light-gray   "#383838"
+  :med-gray     "#c6cbd2"
+  :green-gray   "#789395"}
 
  :highlights
- {"statusline"                :light-gray
-  "title"                     :blue
-  "special"                   :green-gray
-  "delimiter"                 :green-gray
-  "@text.todo.unchecked"      :green-gray
-  "@text.todo.check"          :green-gray
-  "@text.reference"           :white
-  "@text.literal"             :green-gray
-  "@text.strong"              {:color :green-gray :gui "bold" :cterm "bold"}}}
+ {"Normal"                    {:color :white :guibg :black}
+  "Comment"                   :yellow
+  "SpecialComment"            :white
+  "Todo"                      :yellow
+
+  "Number"                    :purple
+
+  "Function"                  :blue
+
+  "String"                    :green
+
+  "Character"                 :red
+  "Statement"                 :red
+  "Conditional"               :red
+  "Repeat"                    :red
+  "Label"                     :red
+  "Operator"                  :red
+  "Exception"                 :red
+  "PreProc"                   :red
+  ;"Include"                   :white
+  ;"Define"                    :white
+  ;"Title"                     :white
+  ;"Macro"                     :white
+  ;"PreCondit"                 :white
+  ;"Type"                      :white
+  ;"StorageClass"              :white
+  ;"Structure"                 :white
+  ;"Typedef"                   :white
+  ;"Special"                   :white
+  ;"MoreMsg"                   :white
+  ;"WarningMsg"                :white
+  ;"WildMenu"                  :white
+  ;"EndOfBuffer"               :white
+
+  ;; when selecting, will have a different black color than when not
+  ;; selected
+  ;; Word not recognized
+  "SpellBad"                   {:color :white :gui "underline"}
+  "Cursor"                     {:color :white :gui "reverse"}
+
+  "ColorColumn"                {:guibg :light-gray}
+  "CursorLineNr"               {:color :white :gui "bold"}
+  "SignColumn"                 {:color "NONE" :guibg :black}
+  "Conceal"                    :white
+  "CursorColumn"               {:color "NONE" :guibg :black}
+  "Directory"                  :blue
+  "DiffAdd"                    {:color :black :guibg :yellow}
+  "DiffChange"                 {:color :yellow :gui "underline"}
+  "DiffDelete"                 {:color :black :guibg :red}
+  "DiffText"                   {:color :black :guibg :yellow}
+  "ErrorMsg"                   :red
+  "VertSplit"                  :gray
+  "Folded"                     :white
+  "FoldColumn"                 :white
+  "LineNr"                     :white
+  "MatchParen"                 {:color :black :guibg :blue}
+  "NonText"                    :white
+
+  ;; tab autocomplete popover
+  "Pmenu"                      {:color :white :guibg :black}
+  "PmenuSel"                   {:guibg :light-blue}
+  "PmenuSbar"                  {:guibg :white}
+  "PmenuThumb"                 {:guibg :white}
+
+  "Question"                   :purple
+  "QuickFixLine"               {:color :black :guibg :yellow}
+
+  "IncSearch"                  {:color :orange :gui "undercurl" :cterm "undercurl" :guisp :orange}
+  "Search"                     {:color :orange :gui "undercurl" :cterm "undercurl" :guisp :orange}
+
+  "SpecialKey"                 :white
+  ;; word not capitalized
+  "SpellCap"                   {:color :red  :gui "underline"}
+  ;; word not spelled correctly for current region
+  "SpellLocal"                 {:color :red  :gui "underline"}
+  ;; rare word
+  "SpellRare"                  {:color :red  :gui "underline"}
+
+  ;; airline NORMAL > SPELL ---- - UTF-8 > - -
+  "StatusLineNC"               {:color :white :guibg :med-gray}
+  ;; statusline - the inactive windows line
+  "StatusLine"                 {:color :white :guibg :light-gray}
+  ;; the middle bit
+  "CursorLine"                 {:color :white :guibg :light-gray}
+
+  ;; characters in the tabine
+  "TabLine"                    :white
+  ;; background color when selecting
+  "TabLineSel"                 :light-gray
+  "TabLineFill"                {:guibg :black}
+  "Terminal"                   {:color :white :guibg :back}
+
+  ;; selection
+  "Visual"                     {:guibg :light-blue}
+  "VisualNOS"                  {:guibg :black}
+
+  "statusline"                 :light-gray
+
+  ;; Clojure
+  ;; --------------------------------------------------------------------------
+  ;; not (defn symbol-name) - the symbol-name part
+  "Identifier"                 :white
+  "@function.call"             :white
+  "@variable"                  :white
+  "@punctuation.bracket"       :white
+  "@function.builtin"          :white
+  "@variable.builtin"          :white
+  ;; defn
+  "@keyword.function"          :white
+  ;; def
+  "@keyword"                   :white
+  "@symbol"                    :purple
+
+  ;; Markdown
+  ;; --------------------------------------------------------------------------
+  "title"                      :blue
+  "special"                    :green-gray
+  "delimiter"                  :green-gray
+  "@text.todo.unchecked"       :green-gray
+  "@text.todo.checked"         :green-gray
+  "@text.reference"            :white
+  "@text.literal"              :green-gray
+  "@text.strong"               {:color :green-gray :gui "bold" :cterm "bold"}}}

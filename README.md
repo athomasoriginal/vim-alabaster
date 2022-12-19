@@ -109,6 +109,12 @@ This has only been tested in this scenario.
     themselves because I like them to standout as I often refer back to these
     words to be sure they are indeed things that deserve "special".
 
+## Research Notes
+
+- [nvim syntax highlight]
+- [highlight args]
+
+
 [Install]: #install
 [Build Colors]: #build-colors
 [Editing Colors]: #editing-colors
@@ -119,3 +125,5 @@ This has only been tested in this scenario.
 [vim-felipic]: https://github.com/felipec/vim-felipec
 [Modifying Color Scheme Best Practices]: https://gist.github.com/romainl/379904f91fa40533175dfaec4c833f2f
 [Babashka]: https://github.com/babashka/babashka#quickstart
+[nvim syntax highlight]: https://neovim.io/doc/user/treesitter.html#treesitter-highlight
+[highlight args]: https://neovim.io/doc/user/syntax.html#highlight-args
