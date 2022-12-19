@@ -33,28 +33,31 @@
 
   "String"                    :green
 
-  "Character"                 :red
-  "Statement"                 :red
-  "Conditional"               :red
-  "Repeat"                    :red
-  "Label"                     :red
-  "Operator"                  :red
-  "Exception"                 :red
-  "PreProc"                   :red
-  ;"Include"                   :white
-  ;"Define"                    :white
-  ;"Title"                     :white
-  ;"Macro"                     :white
-  ;"PreCondit"                 :white
-  ;"Type"                      :white
-  ;"StorageClass"              :white
-  ;"Structure"                 :white
-  ;"Typedef"                   :white
-  ;"Special"                   :white
-  ;"MoreMsg"                   :white
-  ;"WarningMsg"                :white
-  ;"WildMenu"                  :white
-  ;"EndOfBuffer"               :white
+  "Boolean"                   :purple
+
+  ;; NerdTree top level folder path
+  "Statement"                 :green-gray
+  ;"Conditional"               :red
+  ;"Repeat"                    :red
+  ;"Label"                     :red
+  ;"Operator"                  :red
+  ;"Exception"                 :red
+  ;"PreProc"                   :red
+  ;"Include"                   :red
+  ;"Define"                    :red
+  ;"Title"                     :red
+
+  "Macro"                     :white
+  "PreCondit"                 :red
+
+  "StorageClass"              :red
+  "Structure"                 :red
+  "Typedef"                   :red
+  "Special"                   :red
+  "MoreMsg"                   :red
+  "WarningMsg"                :red
+  "WildMenu"                  :red
+  "EndOfBuffer"               :red
 
   ;; when selecting, will have a different black color than when not
   ;; selected
@@ -129,11 +132,20 @@
   "@punctuation.bracket"       :white
   "@function.builtin"          :white
   "@variable.builtin"          :white
+  "@conditional"               :white
+  "@operator"                  :white
+  "@method"                    :white
+  "@repeat"                    :white
   ;; defn
   "@keyword.function"          :white
   ;; def
   "@keyword"                   :white
+  ;; clj - require statement path
+  "Type"                       :white
+  ;; clj - escaped char like `\u201C`
+  "Character"                  :purple
   "@symbol"                    :purple
+  "@namespace"                 :blue
 
   ;; Markdown
   ;; --------------------------------------------------------------------------
@@ -142,6 +154,7 @@
   "delimiter"                  :green-gray
   "@text.todo.unchecked"       :green-gray
   "@text.todo.checked"         :green-gray
-  "@text.reference"            :white
+  "@text.reference"            :blue
   "@text.literal"              :green-gray
+  "@text.uri"                  :white
   "@text.strong"               {:color :green-gray :gui "bold" :cterm "bold"}}}

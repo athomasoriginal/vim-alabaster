@@ -53,27 +53,27 @@
 (defn header
   [theme]
   (str
-    "\" Vim syntax file \n"
+    "\" Vim syntax file\n"
     (str "\" Languages: " (:languages theme) "\n")
     (str "\" Maintainer: " (:maintainer theme) "\n")
     (str "\" Last Changed: " (:last-change theme) "\n")))
 
 (defn set-background-color
   [background-type]
-  (str "set background=" background-type " \n\n"))
+  (str "set background=" background-type "\n\n"))
 
 (def clear-colors
-  (str "hi clear \n\n"))
+  (str "hi clear\n\n"))
 
 (def check-syntax-settings
   (str
-    (str "if exists ('syntax_on') \n")
-    (str "  syntax reset \n")
-    (str "endif \n\n")))
+    (str "if exists ('syntax_on')\n")
+    (str "  syntax reset\n")
+    (str "endif\n\n")))
 
 (defn color-name-binding
   [theme-name]
-  (str "let g:colors_name='" theme-name "' \n \n"))
+  (str "let g:colors_name='" theme-name "'\n\n"))
 
 
 (defn status-line-fn
@@ -87,19 +87,26 @@
                    `r` - color of the status line read mode"
   [insert-config read-config default-config]
   (str
-    (str "function! InsertStatuslineColor(mode) \n")
-    (str "  if a:mode == 'i' \n")
-    (str "    hi statusline guibg='" (:color insert-config) "' \n")
-    (str "  elseif a:mode == 'r' \n")
-    (str "    hi statusline guibg='" (:color read-config) "' \n")
-    (str "  else \n")
-    (str "    hi statusline guibg='" (:color default-config) "' \n")
-    (str "  endif \n")
-    (str "endfunction \n \n")
+    (str "function! InsertStatuslineColor(mode)\n")
+    (str "  if a:mode == 'i'\n")
+    (str "    hi statusline guibg='" (:color insert-config) "'\n")
+    (str "  elseif a:mode == 'r'\n")
+    (str "    hi statusline guibg='" (:color read-config) "'\n")
+    (str "  else\n")
+    (str "    hi statusline guibg='" (:color default-config) "'\n")
+    (str "  endif\n")
+    (str "endfunction\n\n")
 
-    (str "au InsertEnter  * call InsertStatuslineColor(v:insertmode) \n")
-    (str "au InsertChange * call InsertStatuslineColor(v:insertmode) \n")
-    (str "au InsertLeave  * hi statusline guibg='" (:color default-config) "' \n \n")))
+    (str "au InsertEnter  * call InsertStatuslineColor(v:insertmode)\n")
+    (str "au InsertChange * call InsertStatuslineColor(v:insertmode)\n")
+    (str "au InsertLeave  * hi statusline guibg='" (:color default-config) "'\n\n")))
+
+;; @todo remove extra space after
+(defn highlight-arg
+  [arg-name value]
+  (if (= "cterm" arg-name)
+    (str arg-name "=" value)
+    (str arg-name "=" value " ")))
 
 
 (defn rules
@@ -154,10 +161,6 @@
     {}
     highlights))
 
-
-(defn highlight-arg
-  [arg-name value]
-  (str arg-name "=" value " "))
 
 
 (defn highlight-config->cmd
