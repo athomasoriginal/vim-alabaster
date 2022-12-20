@@ -16,19 +16,14 @@ incomplete.  The goals I would like to achieve:
   - [ ] Markdown Syntax
   - [ ] Alabaster airline (current progress: partial)
 - [ ] Alabaster dark theme
+  - [x] Clojure Syntax
+  - [x] Markdown Syntax
+  - [ ] Better name for `gray_green`
   - [ ] JS Syntax
   - [ ] Bash Syntax
-  - [ ] Clojure Syntax
   - [ ] Rust Syntax
-  - [ ] Markdown Syntax
-  - [ ] Better name for `gray_green`
   - [ ] Alabaster airline (current progress: partial)
-  - Our background color is the gruvbox which is different from sublime
-    Alabaster dark.  Feels a little softer.
 - [ ] Polish LSP colors
-- [ ] Improve statusline coloring
-  - The statusline is currently colored via the `genereate` script.  Let's have
-    and easier way to handle this
 - Custom Syntax File Builder
   - [ ] Explore nicer approach to building/writing strings
   - [ ] Add fn to convert hex to x256 - see `highlight-config`

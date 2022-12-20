@@ -37,15 +37,6 @@
 
   ;; NerdTree top level folder path
   "Statement"                 :green-gray
-  ;"Conditional"               :red
-  ;"Repeat"                    :red
-  ;"Label"                     :red
-  ;"Operator"                  :red
-  ;"Exception"                 :red
-  ;"PreProc"                   :red
-  ;"Include"                   :red
-  ;"Define"                    :red
-  ;"Title"                     :red
 
   "Macro"                     :white
   "PreCondit"                 :red
@@ -89,6 +80,7 @@
   "PmenuSbar"                  {:guibg :white}
   "PmenuThumb"                 {:guibg :white}
 
+  ;; test
   "Question"                   :purple
   "QuickFixLine"               {:color :black :guibg :yellow}
 
