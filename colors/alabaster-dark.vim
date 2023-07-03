@@ -35,12 +35,16 @@ hi TabLineSel guifg=#383838 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=
 hi Comment guifg=#e3e392 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Type guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CursorColumn guifg=NONE ctermfg=NONE guibg=#0c1415 ctermbg=NONE gui=NONE cterm=NONE
+hi @lsp.mod.definition guifg=#5dafec ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @keyword.function guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticUnnecessary guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @keyword guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Number guifg=#d787cd ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpecialComment guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @conditional guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi WarningMsg guifg=#AA3731 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @include guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @punctuation.special guifg=#789395 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @repeat guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffAdd guifg=#0c1415 ctermfg=NONE guibg=#e3e392 ctermbg=NONE gui=NONE cterm=NONE
 hi StatusLine guifg=#CECECE ctermfg=NONE guibg=#383838 ctermbg=NONE gui=NONE cterm=NONE
@@ -64,7 +68,7 @@ hi ErrorMsg guifg=#AA3731 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NO
 hi Typedef guifg=#AA3731 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#383838 ctermbg=NONE gui=NONE cterm=NONE
 hi TabLine guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi @namespace guifg=#5dafec ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @namespace guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi delimiter guifg=#789395 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi special guifg=#789395 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi EndOfBuffer guifg=#AA3731 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -86,6 +90,7 @@ hi Todo guifg=#e3e392 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Normal guifg=#CECECE ctermfg=NONE guibg=#0c1415 ctermbg=NONE gui=NONE cterm=NONE
 hi @text.strong guifg=#789395 ctermfg=NONE guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi @text.todo.unchecked guifg=#789395 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @lsp.type.namespace guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CursorLineNr guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=bold cterm=NONE
 hi Cursor guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=reverse cterm=NONE
 hi @text.uri guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -93,7 +98,7 @@ hi DiffText guifg=#0c1415 ctermfg=NONE guibg=#e3e392 ctermbg=NONE gui=NONE cterm
 hi SpellLocal guifg=#AA3731 ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=NONE
 hi @variable.builtin guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi PreCondit guifg=#AA3731 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Function guifg=#5dafec ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Function guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VisualNOS guifg=NONE ctermfg=NONE guibg=#0c1415 ctermbg=NONE gui=NONE cterm=NONE
 hi @symbol guifg=#d787cd ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @text.title.3.marker guifg=#789395 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -102,6 +107,7 @@ hi StorageClass guifg=#AA3731 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cter
 hi MatchParen guifg=#0c1415 ctermfg=NONE guibg=#5dafec ctermbg=NONE gui=NONE cterm=NONE
 hi SpellRare guifg=#AA3731 ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=NONE
 hi @method guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @lsp.type.keyword guifg=#d787cd ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VertSplit guifg=#696969 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Macro guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @operator guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -109,7 +115,7 @@ hi Search guifg=#FFBC5D ctermfg=NONE guibg=NONE ctermbg=NONE gui=undercurl cterm
 hi StatusLineNC guifg=#CECECE ctermfg=NONE guibg=#c6cbd2 ctermbg=NONE gui=NONE cterm=NONE
 hi Identifier guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi statusline guifg=#383838 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Structure guifg=#AA3731 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Structure guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @text.title.1.marker guifg=#789395 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi WildMenu guifg=#AA3731 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SignColumn guifg=NONE ctermfg=NONE guibg=#0c1415 ctermbg=NONE gui=NONE cterm=NONE

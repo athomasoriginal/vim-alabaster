@@ -29,7 +29,7 @@
 
   "Number"                    :purple
 
-  "Function"                  :blue
+  "Function"                  :white
 
   "String"                    :green
 
@@ -42,7 +42,7 @@
   "PreCondit"                 :red
 
   "StorageClass"              :red
-  "Structure"                 :red
+  "Structure"                 :white
   "Typedef"                   :red
   "Special"                   :red
   "MoreMsg"                   :red
@@ -115,13 +115,19 @@
 
   "statusline"                 :light-gray
 
-  ;; Clojure
+  ;; TREESITTER - EXTMARKS
+  ;; --------------------------------------------------------------------------
+  "DiagnosticUnnecessary"      {:color "NONE"}
+
+
+  ;; TREESITTER - CLOJURE
   ;; --------------------------------------------------------------------------
   ;; not (defn symbol-name) - the symbol-name part
   "Identifier"                 :white
   "@function.call"             :white
   "@variable"                  :white
   "@punctuation.bracket"       :white
+  "@punctuation.special"       :green-gray
   "@function.builtin"          :white
   "@variable.builtin"          :white
   "@conditional"               :white
@@ -134,12 +140,16 @@
   "@keyword"                   :white
   ;; clj - require statement path
   "Type"                       :white
+  "@include"                   :white
+  "@namespace"                 :white
+  "@lsp.type.namespace"        :white
   ;; clj - escaped char like `\u201C`
   "Character"                  :purple
   "@symbol"                    :purple
-  "@namespace"                 :blue
+  "@lsp.type.keyword"          :purple
+  "@lsp.mod.definition"        :blue
 
-  ;; Markdown
+  ;; TREESITTER - MARKDOWN
   ;; --------------------------------------------------------------------------
   "title"                      :blue
   "special"                    :green-gray
