@@ -89,7 +89,6 @@ This has only been tested in this scenario.
 - The cursor colour is controlled in iterm2 settings
   - preferences >  profiles > colors > cursor colors
 
-
 ## Project Layout
 
 - `build.clj`

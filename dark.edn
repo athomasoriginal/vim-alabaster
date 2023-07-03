@@ -149,4 +149,10 @@
   "@text.reference"            :blue
   "@text.literal"              :green-gray
   "@text.uri"                  :white
-  "@text.strong"               {:color :green-gray :gui "bold" :cterm "bold"}}}
+  "@text.strong"               {:color :green-gray :gui "bold" :cterm "bold"}
+  "@text.title.1.marker"       :green-gray
+  "@text.title.2.marker"       :green-gray
+  "@text.title.3.marker"       :green-gray
+  "@text.title.4.marker"       :green-gray
+  "@text.title.5.marker"       :green-gray
+  "@text.title.6.marker"       :green-gray}}
