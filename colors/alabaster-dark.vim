@@ -14,17 +14,17 @@ let g:colors_name='alabaster-dark'
 
 function! InsertStatuslineColor(mode)
   if a:mode == 'i'
-    hi statusline guibg='#383838'
+    hi statusline guibg='NONE'
   elseif a:mode == 'r'
-    hi statusline guibg='#383838'
+    hi statusline guibg='NONE'
   else
-    hi statusline guibg='#383838'
+    hi statusline guibg='NONE'
   endif
 endfunction
 
 au InsertEnter  * call InsertStatuslineColor(v:insertmode)
 au InsertChange * call InsertStatuslineColor(v:insertmode)
-au InsertLeave  * hi statusline guibg='#383838'
+au InsertLeave  * hi statusline guibg='NONE'
 
 hi Pmenu guifg=#CECECE ctermfg=NONE guibg=#0c1415 ctermbg=NONE gui=NONE cterm=NONE
 hi Terminal guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -108,13 +108,13 @@ hi MatchParen guifg=#0c1415 ctermfg=NONE guibg=#5dafec ctermbg=NONE gui=NONE cte
 hi SpellRare guifg=#AA3731 ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=NONE
 hi @method guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @lsp.type.keyword guifg=#d787cd ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi VertSplit guifg=#696969 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi VertSplit guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Macro guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @operator guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Search guifg=#FFBC5D ctermfg=NONE guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl
-hi StatusLineNC guifg=#CECECE ctermfg=NONE guibg=#c6cbd2 ctermbg=NONE gui=NONE cterm=NONE
+hi StatusLineNC guifg=#CECECE ctermfg=NONE guibg=#CECECE ctermbg=NONE gui=NONE cterm=NONE
 hi Identifier guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi statusline guifg=#383838 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi statusline guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Structure guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @text.title.1.marker guifg=#789395 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi WildMenu guifg=#AA3731 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

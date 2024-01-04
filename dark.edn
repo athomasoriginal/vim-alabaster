@@ -19,7 +19,8 @@
   ;; @note vertical column column, asteriks & #'s in markdown
   :light-gray   "#383838"
   :med-gray     "#c6cbd2"
-  :green-gray   "#789395"}
+  :green-gray   "#789395"
+  :none         "NONE"}
 
  :highlights
  {"Normal"                    {:color :white :guibg :black}
@@ -67,7 +68,7 @@
   "DiffDelete"                 {:color :black :guibg :red}
   "DiffText"                   {:color :black :guibg :yellow}
   "ErrorMsg"                   :red
-  "VertSplit"                  :gray
+  "VertSplit"                  :white
   "Folded"                     :white
   "FoldColumn"                 :white
   "LineNr"                     :white
@@ -96,7 +97,7 @@
   "SpellRare"                  {:color :red  :gui "underline"}
 
   ;; airline NORMAL > SPELL ---- - UTF-8 > - -
-  "StatusLineNC"               {:color :white :guibg :med-gray}
+  "StatusLineNC"               {:color :white :guibg :white}
   ;; statusline - the inactive windows line
   "StatusLine"                 {:color :white :guibg :light-gray}
   ;; the middle bit
@@ -113,7 +114,7 @@
   "Visual"                     {:guibg :light-blue}
   "VisualNOS"                  {:guibg :black}
 
-  "statusline"                 :light-gray
+  "statusline"                 :none
 
   ;; TREESITTER - EXTMARKS
   ;; --------------------------------------------------------------------------
