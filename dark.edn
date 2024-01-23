@@ -45,7 +45,7 @@
   "StorageClass"              :red
   "Structure"                 :white
   "Typedef"                   :red
-  "Special"                   :red
+  "Special"                   {:color :orange :gui "undercurl" :cterm "undercurl" :guisp :orange}
   "MoreMsg"                   :red
   "WarningMsg"                :red
   "WildMenu"                  :red
