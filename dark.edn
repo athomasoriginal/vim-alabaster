@@ -157,15 +157,16 @@
 
   ;; TREESITTER - MARKDOWN
   ;; --------------------------------------------------------------------------
-  "title"                      :blue
-  "special"                    :green-gray
-  "delimiter"                  :green-gray
-  "@text.todo.unchecked"       :green-gray
-  "@text.todo.checked"         :green-gray
-  "@text.reference"            :blue
-  "@text.literal"              :green-gray
-  "@text.uri"                  :white
-  "@text.strong"               {:color :green-gray :gui "bold" :cterm "bold"}
+  "@label"                     :purple
+  "@markup.link.label"         :blue
+  "@markup.literal"            :green-gray
+  "@markup.uri"                :white
+  "@markup.strong"             {:color :green-gray :gui "bold" :cterm "bold"}
+  "@markup.raw.block"          :green-gray
+  "@markup.raw.delimiter"      :green-gray
+  "@markup.list"               :green-gray
+  "@markup.list.checked"       :green-gray
+  "@markup.list.unchecked"     :green-gray
   "@markup.heading.1"          :blue
   "@markup.heading.2"          :blue
   "@markup.heading.3"          :blue
