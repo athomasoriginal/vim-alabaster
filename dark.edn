@@ -166,9 +166,15 @@
   "@text.literal"              :green-gray
   "@text.uri"                  :white
   "@text.strong"               {:color :green-gray :gui "bold" :cterm "bold"}
-  "@text.title.1.marker"       :green-gray
-  "@text.title.2.marker"       :green-gray
-  "@text.title.3.marker"       :green-gray
-  "@text.title.4.marker"       :green-gray
-  "@text.title.5.marker"       :green-gray
-  "@text.title.6.marker"       :green-gray}}
+  "@markup.heading.1"          :blue
+  "@markup.heading.2"          :blue
+  "@markup.heading.3"          :blue
+  "@markup.heading.4"          :blue
+  "@markup.heading.5"          :blue
+  "@markup.heading.6"          :blue
+  "@markup.heading.1.marker"   :green-gray
+  "@markup.heading.2.marker"   :green-gray
+  "@markup.heading.3.marker"   :green-gray
+  "@markup.heading.4.marker"   :green-gray
+  "@markup.heading.5.marker"   :green-gray
+  "@markup.heading.6.marker"   :green-gray}}
