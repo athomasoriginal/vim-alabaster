@@ -132,7 +132,8 @@
   "@function.builtin"          :white
   "@variable.builtin"          :white
   "@conditional"               :white
-  "@operator"                  :white
+  ;; C language specifically
+  "@operator"                  :green-gray
   "@method"                    :white
   "@repeat"                    :white
   ;; defn
@@ -149,6 +150,9 @@
   "@symbol"                    :purple
   "@lsp.type.keyword"          :purple
   "@lsp.mod.definition"        :blue
+
+  ;; TREESITTER - C
+  ;; --------------------------------------------------------------------------
 
   ;; TREESITTER - MARKDOWN
   ;; --------------------------------------------------------------------------
