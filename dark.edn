@@ -132,8 +132,6 @@
   "@function.builtin"          :white
   "@variable.builtin"          :white
   "@conditional"               :white
-  ;; C language specifically
-  "@operator"                  :green-gray
   "@method"                    :white
   "@repeat"                    :white
   ;; defn
@@ -148,11 +146,13 @@
   ;; clj - escaped char like `\u201C`
   "Character"                  :purple
   "@symbol"                    :purple
+  "@string.special.symbol"     :purple
   "@lsp.type.keyword"          :purple
   "@lsp.mod.definition"        :blue
 
   ;; TREESITTER - C
   ;; --------------------------------------------------------------------------
+  "@operator"                  :green-gray
   "@function"                  :blue
 
   ;; TREESITTER - MARKDOWN
