@@ -90,6 +90,7 @@ hi @variable guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=N
 hi PmenuSel guifg=NONE ctermfg=NONE guibg=#204273 ctermbg=NONE gui=NONE cterm=NONE
 hi Conceal guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @string.special.symbol guifg=#d787cd ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi title guifg=#9ed187 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpecialKey guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LineNr guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffChange guifg=#e3e392 ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=NONE
