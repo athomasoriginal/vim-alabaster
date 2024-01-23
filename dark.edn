@@ -156,6 +156,8 @@
   ;; TREESITTER - C
   ;; --------------------------------------------------------------------------
   "@operator"                  :green-gray
+  "@punctuation.delimiter"     :green-gray
+  "@constant.builtin"          :green-gray
   "@function"                  :blue
 
   ;; TREESITTER - MARKDOWN

@@ -65,6 +65,7 @@ hi Question guifg=#d787cd ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NO
 hi DiffDelete guifg=#0c1415 ctermfg=NONE guibg=#AA3731 ctermbg=NONE gui=NONE cterm=NONE
 hi FoldColumn guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi PmenuSbar guifg=NONE ctermfg=NONE guibg=#CECECE ctermbg=NONE gui=NONE cterm=NONE
+hi @constant.builtin guifg=#789395 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Special guifg=#FFBC5D ctermfg=NONE guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl
 hi Directory guifg=#5dafec ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @markup.heading.4 guifg=#5dafec ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -98,6 +99,7 @@ hi @markup.heading.2 guifg=#5dafec ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE
 hi @markup.list.unchecked guifg=#789395 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Todo guifg=#e3e392 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Normal guifg=#CECECE ctermfg=NONE guibg=#0c1415 ctermbg=NONE gui=NONE cterm=NONE
+hi @punctuation.delimiter guifg=#789395 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @lsp.type.namespace guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CursorLineNr guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=bold cterm=NONE
 hi Cursor guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=reverse cterm=NONE
