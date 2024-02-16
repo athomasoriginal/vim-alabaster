@@ -191,4 +191,10 @@
   "@type.javascript"             :blue
   "@constructor.javascript"      :white
   "@keyword.operator.javascript" :green-gray
-  "@string.escape.javascript"    :purple}}
+  "@string.escape.javascript"    :purple
+
+  ;; TREESITTER - CSS
+  ;; --------------------------------------------------------------------------
+  "@tag.css"      :white
+  "@constant.css" :white}}
+

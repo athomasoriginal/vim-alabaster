@@ -8,6 +8,7 @@ incomplete.  The goals I would like to achieve:
 
 - [x] Correct color names
   - [ ] light_gray is darker than med_gray
+  - [ ] Better name for `gray_green`
 - [ ] Alabaster light theme (current progress: partial)
   - [ ] JS Syntax
   - [ ] Bash Syntax
@@ -18,8 +19,8 @@ incomplete.  The goals I would like to achieve:
 - [ ] Alabaster dark theme
   - [x] Clojure Syntax
   - [x] Markdown Syntax
-  - [ ] Better name for `gray_green`
-  - [ ] JS Syntax
+  - [x] JS Syntax
+  - [ ] CSS syntax
   - [ ] Bash Syntax
   - [ ] Rust Syntax
   - [ ] Alabaster airline (current progress: partial)
