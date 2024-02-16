@@ -195,6 +195,8 @@
 
   ;; TREESITTER - CSS
   ;; --------------------------------------------------------------------------
-  "@tag.css"      :white
-  "@constant.css" :white}}
+  "@tag.css"           :white
+  "@tag.attribute.css" :white
+  "@function.css"      :white
+  "@constant.css"      :white}}
 

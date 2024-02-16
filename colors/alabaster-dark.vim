@@ -40,6 +40,7 @@ hi @markup.heading.6.marker guifg=#789395 ctermfg=NONE guibg=NONE ctermbg=NONE g
 hi Comment guifg=#e3e392 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @markup.heading.1.marker guifg=#789395 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Type guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @tag.attribute.css guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CursorColumn guifg=NONE ctermfg=NONE guibg=#0c1415 ctermbg=NONE gui=NONE cterm=NONE
 hi @lsp.mod.definition guifg=#5dafec ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @markup.raw.block guifg=#789395 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -67,6 +68,7 @@ hi @constant.css guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cte
 hi DiffDelete guifg=#0c1415 ctermfg=NONE guibg=#AA3731 ctermbg=NONE gui=NONE cterm=NONE
 hi FoldColumn guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi PmenuSbar guifg=NONE ctermfg=NONE guibg=#CECECE ctermbg=NONE gui=NONE cterm=NONE
+hi @function.css guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @type.javascript guifg=#5dafec ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @constant.builtin guifg=#789395 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Special guifg=#FFBC5D ctermfg=NONE guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl
