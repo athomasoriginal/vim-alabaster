@@ -163,7 +163,11 @@
 
   ;; TREESITTER - MARKDOWN
   ;; --------------------------------------------------------------------------
+  "@tag.html"                  :green-gray
   "@label"                     :purple
+  "@markup.raw.markdown_inline"           :green-gray
+  "@markup.italic.markdown_inline"        :green-gray
+  "@markup.strikethrough.markdown_inline" :green-gray
   "@markup.link.label"         :blue
   "@markup.literal"            :green-gray
   "@markup.uri"                :white
