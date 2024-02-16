@@ -20,10 +20,10 @@ incomplete.  The goals I would like to achieve:
   - [x] Clojure Syntax
   - [x] Markdown Syntax
   - [x] JS Syntax
-  - [ ] CSS syntax
-  - [ ] Bash Syntax
+  - [x] CSS syntax
+  - [x] Bash Syntax
   - [ ] Rust Syntax
-  - [ ] Alabaster airline (current progress: partial)
+- [ ] Alabaster airline (current progress: partial)
 - [ ] Polish LSP colors
 - Custom Syntax File Builder
   - [ ] Explore nicer approach to building/writing strings

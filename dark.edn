@@ -198,5 +198,11 @@
   "@tag.css"           :white
   "@tag.attribute.css" :white
   "@function.css"      :white
-  "@constant.css"      :white}}
+  "@constant.css"      :white
 
+  ;; TREESITTER - BASH
+  ;; --------------------------------------------------------------------------
+  "@keyword.directive.bash"   :yellow
+  "@punctuation.special.bash" :green-gray
+  "@label.bash"               :white
+  "@constant.bash"            :white}}
