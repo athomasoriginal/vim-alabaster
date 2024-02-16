@@ -1,32 +1,32 @@
 {:theme
- {:name        "alabaster-dark"
+ {:name        "alabaster-light"
   :languages   "Markdown, Clojure, JavaScript, CSS, Bash"
   :maintainer  "Thomas Mattacchione"
-  :last-change "Dec 18, 2022"
-  :type        "dark"}
+  :last-change "Feb 16, 2024"
+  :type        "light"}
 
  :colors
- {:white        "#CECECE"
-  :blue         "#5dafec"
-  :black        "#0c1415"
-  :yellow       "#e3e392"
+ {:white        "#f7f7f7"
+  :blue         "#325CC0"
+  :black        "#000000"
+  :yellow       "#feff00"
   :red          "#AA3731"
-  :green        "#9ed187"
-  :light-blue   "#204273"
-  :purple       "#d787cd"
+  :green        "#448C27"
+  :light-blue   "#BFDBFE"
+  :purple       "#7A3E9D"
   :orange       "#FFBC5D"
   :gray         "#696969"
   ;; @note vertical column column, asteriks & #'s in markdown
-  :light-gray   "#383838"
+  :light-gray   "#f0f0f0"
   :med-gray     "#c6cbd2"
   :green-gray   "#789395"
   :none         "NONE"}
 
  :highlights
- {"Normal"                    {:color :white :guibg :black}
-  "Comment"                   :yellow
-  "SpecialComment"            :white
-  "Todo"                      :yellow
+ {"Normal"                    {:color :black :guibg :white}
+  "Comment"                   :red
+  "SpecialComment"            :black
+  "Todo"                      :red
 
   "Number"                    :purple
 

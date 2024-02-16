@@ -6,9 +6,6 @@
 This is a port of [Tonsky's Alabaster Theme].  At this point in time it's
 incomplete.  The goals I would like to achieve:
 
-- [x] Correct color names
-  - [ ] light_gray is darker than med_gray
-  - [ ] Better name for `gray_green`
 - [ ] Alabaster light theme (current progress: partial)
   - [ ] JS Syntax
   - [ ] Bash Syntax
@@ -16,13 +13,16 @@ incomplete.  The goals I would like to achieve:
   - [ ] Rust Syntax
   - [ ] Markdown Syntax
   - [ ] Alabaster airline (current progress: partial)
-- [ ] Alabaster dark theme
+- [x] Alabaster dark theme
   - [x] Clojure Syntax
   - [x] Markdown Syntax
   - [x] JS Syntax
   - [x] CSS syntax
   - [x] Bash Syntax
-  - [ ] Rust Syntax
+  - [x] Rust Syntax
+- [ ] Correct color names
+  - [ ] light_gray is darker than med_gray
+  - [ ] Better name for `gray_green`
 - [ ] Alabaster airline (current progress: partial)
 - [ ] Polish LSP colors
 - Custom Syntax File Builder
