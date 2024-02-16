@@ -188,4 +188,7 @@
 
   ;; TREESITTER - JavaScript
   ;; --------------------------------------------------------------------------
-  "@keyword.operator.javascript" :green-gray}}
+  "@type.javascript"             :blue
+  "@constructor.javascript"      :white
+  "@keyword.operator.javascript" :green-gray
+  "@string.escape.javascript"    :purple}}
