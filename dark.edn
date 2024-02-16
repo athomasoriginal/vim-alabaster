@@ -164,6 +164,7 @@
   ;; TREESITTER - MARKDOWN
   ;; --------------------------------------------------------------------------
   "@tag.html"                  :green-gray
+  "@tag.delimiter.html"        :green-gray
   "@label"                     :purple
   "@markup.raw.markdown_inline"           :green-gray
   "@markup.italic.markdown_inline"        :green-gray
