@@ -184,4 +184,8 @@
   "@markup.heading.3.marker"   :green-gray
   "@markup.heading.4.marker"   :green-gray
   "@markup.heading.5.marker"   :green-gray
-  "@markup.heading.6.marker"   :green-gray}}
+  "@markup.heading.6.marker"   :green-gray
+
+  ;; TREESITTER - JavaScript
+  ;; --------------------------------------------------------------------------
+  "@keyword.operator.javascript" :green-gray}}

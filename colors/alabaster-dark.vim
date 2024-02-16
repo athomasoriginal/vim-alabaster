@@ -97,6 +97,7 @@ hi SpecialKey guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=
 hi LineNr guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffChange guifg=#e3e392 ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=NONE
 hi @markup.heading.2 guifg=#5dafec ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @keyword.operator.javascript guifg=#789395 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @markup.list.unchecked guifg=#789395 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Todo guifg=#e3e392 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Normal guifg=#CECECE ctermfg=NONE guibg=#0c1415 ctermbg=NONE gui=NONE cterm=NONE
