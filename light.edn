@@ -30,7 +30,7 @@
 
   "Number"                    :purple
 
-  "Function"                  :white
+  "Function"                  :black
 
   "String"                    :green
 
@@ -39,11 +39,11 @@
   ;; NerdTree top level folder path
   "Statement"                 :green-gray
 
-  "Macro"                     :white
+  "Macro"                     :black
   "PreCondit"                 :red
 
   "StorageClass"              :red
-  "Structure"                 :white
+  "Structure"                 :black
   "Typedef"                   :red
   "Special"                   {:color :orange :gui "undercurl" :cterm "undercurl" :guisp :orange}
   "MoreMsg"                   :red
@@ -54,13 +54,13 @@
   ;; when selecting, will have a different black color than when not
   ;; selected
   ;; Word not recognized
-  "SpellBad"                   {:color :white :gui "underline"}
-  "Cursor"                     {:color :white :gui "reverse"}
+  "SpellBad"                   {:color :black :gui "underline"}
+  "Cursor"                     {:color :black :gui "reverse"}
 
   "ColorColumn"                {:guibg :light-gray}
-  "CursorLineNr"               {:color :white :gui "bold"}
+  "CursorLineNr"               {:color :black :gui "bold"}
   "SignColumn"                 {:color "NONE" :guibg :black}
-  "Conceal"                    :white
+  "Conceal"                    :black
   "CursorColumn"               {:color "NONE" :guibg :black}
   "Directory"                  :blue
   "DiffAdd"                    {:color :black :guibg :yellow}
@@ -68,18 +68,18 @@
   "DiffDelete"                 {:color :black :guibg :red}
   "DiffText"                   {:color :black :guibg :yellow}
   "ErrorMsg"                   :red
-  "VertSplit"                  :white
-  "Folded"                     :white
-  "FoldColumn"                 :white
-  "LineNr"                     :white
+  "VertSplit"                  :black
+  "Folded"                     :black
+  "FoldColumn"                 :black
+  "LineNr"                     :black
   "MatchParen"                 {:color :black :guibg :blue}
-  "NonText"                    :white
+  "NonText"                    :black
 
   ;; tab autocomplete popover
-  "Pmenu"                      {:color :white :guibg :black}
+  "Pmenu"                      {:color :black :guibg :white}
   "PmenuSel"                   {:guibg :light-blue}
-  "PmenuSbar"                  {:guibg :white}
-  "PmenuThumb"                 {:guibg :white}
+  "PmenuSbar"                  {:guibg :black}
+  "PmenuThumb"                 {:guibg :black}
 
   ;; test
   "Question"                   :purple
@@ -88,7 +88,7 @@
   "IncSearch"                  {:color :orange :gui "undercurl" :cterm "undercurl" :guisp :orange}
   "Search"                     {:color :orange :gui "undercurl" :cterm "undercurl" :guisp :orange}
 
-  "SpecialKey"                 :white
+  "SpecialKey"                 :black
   ;; word not capitalized
   "SpellCap"                   {:color :red  :gui "underline"}
   ;; word not spelled correctly for current region
@@ -97,18 +97,18 @@
   "SpellRare"                  {:color :red  :gui "underline"}
 
   ;; airline NORMAL > SPELL ---- - UTF-8 > - -
-  "StatusLineNC"               {:color :white :guibg :white}
+  "StatusLineNC"               {:color :black :guibg :white}
   ;; statusline - the inactive windows line
   "StatusLine"                 {:color :white :guibg :light-gray}
   ;; the middle bit
   "CursorLine"                 {:color :white :guibg :light-gray}
 
   ;; characters in the tabine
-  "TabLine"                    :white
+  "TabLine"                    :black
   ;; background color when selecting
   "TabLineSel"                 :light-gray
   "TabLineFill"                {:guibg :black}
-  "Terminal"                   {:color :white :guibg :back}
+  "Terminal"                   {:color :black :guibg :white}
 
   ;; selection
   "Visual"                     {:guibg :light-blue}
@@ -127,25 +127,25 @@
   ;; TREESITTER - CLOJURE
   ;; --------------------------------------------------------------------------
   ;; not (defn symbol-name) - the symbol-name part
-  "Identifier"                 :white
-  "@function.call"             :white
-  "@variable"                  :white
-  "@punctuation.bracket"       :white
-  "@punctuation.special"       :white
-  "@function.builtin"          :white
-  "@variable.builtin"          :white
-  "@conditional"               :white
-  "@method"                    :white
-  "@repeat"                    :white
+  "Identifier"                 :black
+  "@function.call"             :black
+  "@variable"                  :black
+  "@punctuation.bracket"       :black
+  "@punctuation.special"       :black
+  "@function.builtin"          :black
+  "@variable.builtin"          :black
+  "@conditional"               :black
+  "@method"                    :black
+  "@repeat"                    :blac
   ;; defn
-  "@keyword.function"          :white
+  "@keyword.function"          :black
   ;; def
-  "@keyword"                   :white
+  "@keyword"                   :black
   ;; clj - require statement path
-  "Type"                       :white
-  "@include"                   :white
-  "@namespace"                 :white
-  "@lsp.type.namespace"        :white
+  "Type"                       :black
+  "@include"                   :black
+  "@namespace"                 :black
+  "@lsp.type.namespace"        :black
   ;; clj - escaped char like `\u201C`
   "Character"                  :purple
   "@symbol"                    :purple
@@ -171,7 +171,7 @@
   "@markup.strikethrough.markdown_inline" :green-gray
   "@markup.link.label"         :blue
   "@markup.literal"            :green-gray
-  "@markup.uri"                :white
+  "@markup.uri"                :black
   "@markup.strong"             {:color :green-gray :gui "bold" :cterm "bold"}
   "@markup.raw.block"          :green-gray
   "@markup.raw.delimiter"      :green-gray
@@ -194,20 +194,20 @@
   ;; TREESITTER - JavaScript
   ;; --------------------------------------------------------------------------
   "@type.javascript"             :blue
-  "@constructor.javascript"      :white
+  "@constructor.javascript"      :back
   "@keyword.operator.javascript" :green-gray
   "@string.escape.javascript"    :purple
 
   ;; TREESITTER - CSS
   ;; --------------------------------------------------------------------------
-  "@tag.css"           :white
-  "@tag.attribute.css" :white
-  "@function.css"      :white
-  "@constant.css"      :white
+  "@tag.css"           :black
+  "@tag.attribute.css" :black
+  "@function.css"      :black
+  "@constant.css"      :black
 
   ;; TREESITTER - BASH
   ;; --------------------------------------------------------------------------
   "@keyword.directive.bash"   :yellow
   "@punctuation.special.bash" :green-gray
-  "@label.bash"               :white
-  "@constant.bash"            :white}}
+  "@label.bash"               :black
+  "@constant.bash"            :black}}
