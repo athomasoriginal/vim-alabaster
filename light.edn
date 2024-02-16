@@ -59,7 +59,7 @@
 
   "ColorColumn"                {:guibg :light-gray}
   "CursorLineNr"               {:color :black :gui "bold"}
-  "SignColumn"                 {:color "NONE" :guibg :black}
+  "SignColumn"                 {:color "NONE" :guibg :white}
   "Conceal"                    :black
   "CursorColumn"               {:color "NONE" :guibg :black}
   "Directory"                  :blue

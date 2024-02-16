@@ -148,7 +148,7 @@ hi statusline guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NON
 hi Structure guifg=#000000 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @tag.delimiter.html guifg=#789395 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi WildMenu guifg=#AA3731 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi SignColumn guifg=NONE ctermfg=NONE guibg=#000000 ctermbg=NONE gui=NONE cterm=NONE
+hi SignColumn guifg=NONE ctermfg=NONE guibg=#f7f7f7 ctermbg=NONE gui=NONE cterm=NONE
 hi @markup.heading.3 guifg=#325CC0 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi PmenuThumb guifg=NONE ctermfg=NONE guibg=#000000 ctermbg=NONE gui=NONE cterm=NONE
 hi Boolean guifg=#7A3E9D ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
