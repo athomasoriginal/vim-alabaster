@@ -1,0 +1,37 @@
+@import "manual.css";
+
+:root {
+  --yas-white:   hsl(0deg, 0%, 100%);
+  --yas-red:     hsl(0deg 92% 64%);
+  --yas-blue-20: hsl(213deg 92% 55%);
+  --yas-blue-30: hsl(213deg 92% 45%);
+  --yas-gray-30: hsl(240deg 6% 90%);
+  --yas-gray-50: hsl(60deg, 2%, 90%);
+  --yas-gray-90: hsl(60deg, 2%, 80%);
+}
+
+@font-face {
+  font-family: DroidSans;
+  src: url(DroidSans.ttf);
+  unicode-range: U+000-5FF, U+1e00-1fff, U+2000-2300;
+}
+
+h1.mystyle:lang(en) {
+  color: blue; /* TODO: change THIS to yellow for next version! */
+  border: rgb(255,0,0);
+  background-color: #FAFAFA;
+  background: url(hello.jpg) !important;
+}
+
+div > p, p ~ ul, input[type="radio"] {
+  color: green;
+  width: 80%;
+}
+
+#header:after {
+  color: red;
+}
+
+.jockl {
+
+}
