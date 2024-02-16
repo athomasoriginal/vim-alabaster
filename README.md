@@ -94,6 +94,9 @@ This has only been tested in this scenario.
 - `build.clj`
   - A [Babashka] script to dynamically generate `.vim` syntax file from an
     `edn` config file.  Loosely ported from [vim-felipic].
+- `language-samples`
+  - A directory of the languages tested against this color scheme and filled
+    with language syntax so we have something to test against.
 
 ## Markdown Syntax Highlighting
 

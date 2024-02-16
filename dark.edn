@@ -131,7 +131,7 @@
   "@function.call"             :white
   "@variable"                  :white
   "@punctuation.bracket"       :white
-  "@punctuation.special"       :green-gray
+  "@punctuation.special"       :white
   "@function.builtin"          :white
   "@variable.builtin"          :white
   "@conditional"               :white
@@ -149,6 +149,7 @@
   ;; clj - escaped char like `\u201C`
   "Character"                  :purple
   "@symbol"                    :purple
+  "@string.escape"             :green-gray
   "@string.special.symbol"     :purple
   "@lsp.type.keyword"          :purple
   "@lsp.mod.definition"        :blue

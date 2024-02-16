@@ -53,7 +53,7 @@ hi @conditional guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cter
 hi @label guifg=#d787cd ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi WarningMsg guifg=#AA3731 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @include guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi @punctuation.special guifg=#789395 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @punctuation.special guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @repeat guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffAdd guifg=#0c1415 ctermfg=NONE guibg=#e3e392 ctermbg=NONE gui=NONE cterm=NONE
 hi StatusLine guifg=#CECECE ctermfg=NONE guibg=#383838 ctermbg=NONE gui=NONE cterm=NONE
@@ -68,6 +68,7 @@ hi PmenuSbar guifg=NONE ctermfg=NONE guibg=#CECECE ctermbg=NONE gui=NONE cterm=N
 hi @constant.builtin guifg=#789395 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Special guifg=#FFBC5D ctermfg=NONE guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl
 hi Directory guifg=#5dafec ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @string.escape guifg=#789395 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @markup.heading.4 guifg=#5dafec ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi IncSearch guifg=#FFBC5D ctermfg=NONE guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl
 hi Folded guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
