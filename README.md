@@ -8,10 +8,11 @@
 * [Install]
   * [Plugged]
   * [Lazy]
-* [Build Colors]
 * [Editing Colors]
 * [Iterm2 Users]
-* [Project Layout]
+* [Development]
+  * [Build Colors]
+  * [Project Layout]
 
 
 ## Features
@@ -72,7 +73,9 @@
   }
   ```
 
-## Building Colors
+## Development
+
+### Building Colors
 
 - Open the `edn` file of your choice
 - Edit said `edn` file
@@ -83,6 +86,14 @@
   > Run from the root of the project.  We assume you've installed [Babashka].
   > `build.clj` expects to be passed the name of a configuration file.
 
+### Project Layout
+
+- `build.clj`
+  - A [Babashka] script to dynamically generate `.vim` syntax file from an
+    `edn` config file.  Loosely ported from [vim-felipic].
+- `language-samples`
+  - A directory of the languages tested against this color scheme and filled
+    with language syntax so we have something to test against.
 
 ## Editing Colors
 
@@ -104,14 +115,6 @@
 - The cursor colour is controlled in iterm2 settings
   - preferences >  profiles > colors > cursor colors
 
-## Project Layout
-
-- `build.clj`
-  - A [Babashka] script to dynamically generate `.vim` syntax file from an
-    `edn` config file.  Loosely ported from [vim-felipic].
-- `language-samples`
-  - A directory of the languages tested against this color scheme and filled
-    with language syntax so we have something to test against.
 
 ## Markdown Syntax Highlighting
 
@@ -126,10 +129,12 @@
 - [nvim syntax highlight]
 - [highlight args]
 
+
 [Features]: #features
 [Install]: #install
 [Plugged]: #plugged
 [Lazy]: #lazy
+[Development]: #development
 [Build Colors]: #build-colors
 [Editing Colors]: #editing-colors
 [Iterm2 Users]: #iterm2-users
