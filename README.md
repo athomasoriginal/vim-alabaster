@@ -97,29 +97,33 @@
 
 ## Editing Colors
 
-- StatusLine
-  - There are different modes and we can color them via the `generate` script.
-- [Modifying Color Scheme Best Practices]
-  - The color scheme not exactly right?  This guide can help in allowing you
+* Looking for the syntax highlight group?
+  * Place your cursor over a character or word
+  * type `:Inspect`
+    > The above will show you the names of the highlight groups captured
+* StatusLine
+  * There are different modes and we can color them via the `generate` script.
+* [Modifying Color Scheme Best Practices]
+  * The color scheme not exactly right?  This guide can help in allowing you
     to customize for yourself before suggesting an upstream change.
-- Colors to consider
-  - Cursor color
-    - This should standout so you can quickly find where you are
-  - Search Highlight
-    - Note that it should complement the cursor color.
-  - Number column to the left
-    - We can fade these a little more.  Not a priority.
+* Colors to consider
+  * Cursor color
+    * This should standout so you can quickly find where you are
+  * Search Highlight
+    * Note that it should complement the cursor color.
+  * Number column to the left
+    * We can fade these a little more.  Not a priority.
 
 ## Iterm2 Users
 
-- The cursor colour is controlled in iterm2 settings
-  - preferences >  profiles > colors > cursor colors
+* The cursor colour is controlled in iterm2 settings
+  * preferences >  profiles > colors > cursor colors
 
 
 ## Markdown Syntax Highlighting
 
-- Notice that `inline`, **emphasis** and _italics_ etc are the `green_gray`
-  - Tonsky's (sublime as the example) doesn't actually highlight the words
+* Notice that `inline`, **emphasis** and _italics_ etc are the `green_gray`
+  * Tonsky's (sublime as the example) doesn't actually highlight the words
     themselves, but rather the wrapping characters.  I switched to the words
     themselves because I like them to standout as I often refer back to these
     words to be sure they are indeed things that deserve "special".
