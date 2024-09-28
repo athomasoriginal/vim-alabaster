@@ -45,7 +45,6 @@
   "StorageClass"              :red
   "Structure"                 :white
   "Typedef"                   :red
-  "Special"                   {:color :orange :gui "undercurl" :cterm "undercurl" :guisp :orange}
   "MoreMsg"                   :red
   "WarningMsg"                :red
   "WildMenu"                  :red
@@ -169,6 +168,7 @@
   "@markup.raw.markdown_inline"           :green-gray
   "@markup.italic.markdown_inline"        :green-gray
   "@markup.strikethrough.markdown_inline" :green-gray
+  "@markup.quote.markdown"     :white
   "@markup.link.label"         :blue
   "@markup.literal"            :green-gray
   "@markup.uri"                :white
