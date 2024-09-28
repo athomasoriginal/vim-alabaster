@@ -1,47 +1,54 @@
 # Vim Alabaster Theme
 
-> **WARNING**: This is incomplete and many changes likely to occur in the coming
-> weeks. Please do not use if you're looking for something stable.
+> [!WARNING]
+> This is incomplete port of port of [Tonsky's Alabaster Theme] and many
+> changes likely to occur in the coming weeks. Please do not use if you're
+> looking for something stable.
 
-This is a port of [Tonsky's Alabaster Theme].  At this point in time it's
-incomplete.  The goals I would like to achieve:
+* [Features]
+* [Install]
+  * [Plugged]
+  * [Lazy]
+* [Build Colors]
+* [Editing Colors]
+* [Iterm2 Users]
+* [Project Layout]
 
-- [ ] Alabaster light theme (current progress: partial)
-  - [ ] JS Syntax
-  - [ ] Bash Syntax
-  - [ ] Clojure Syntax (current progress: partial)
-  - [ ] Rust Syntax
-  - [ ] Markdown Syntax
-  - [ ] Alabaster airline (current progress: partial)
-- [x] Alabaster dark theme
-  - [x] Clojure Syntax
-  - [x] Markdown Syntax
-  - [x] JS Syntax
-  - [x] CSS syntax
-  - [x] Bash Syntax
-  - [x] Rust Syntax
-- [ ] Correct color names
-  - [ ] light_gray is darker than med_gray
-  - [ ] Better name for `gray_green`
-- [ ] Alabaster airline (current progress: partial)
-- [ ] Polish LSP colors
-- Custom Syntax File Builder
-  - [ ] Explore nicer approach to building/writing strings
-  - [ ] Add fn to convert hex to x256 - see `highlight-config`
 
-Also note that i'm assuming that users are using nvim 6 min and tree-sitter.
-This has only been tested in this scenario.
+## Features
 
-- [Install]
-- [Build Colors]
-- [Editing Colors]
-- [Iterm2 Users]
-- [Project Layout]
+* [x] Alabaster dark theme
+  * [x] Clojure Syntax
+  * [x] Markdown Syntax
+  * [x] JS Syntax
+  * [x] CSS syntax
+  * [x] Bash Syntax
+  * [x] Rust Syntax
+* [ ] Alabaster light theme (current progress: partial)
+  * [ ] JS Syntax
+  * [ ] Bash Syntax
+  * [ ] Clojure Syntax (current progress: partial)
+  * [ ] Rust Syntax
+  * [ ] Markdown Syntax
+  * [ ] Alabaster airline (current progress: partial)
+* [ ] Correct color names
+  * [ ] light_gray is darker than med_gray
+  * [ ] Better name for `gray_green`
+* [ ] Alabaster airline (current progress: partial)
+* [ ] Polish LSP colors
+* Custom Syntax File Builder
+  * [ ] Explore nicer approach to building/writing strings
+  * [ ] Add fn to convert hex to x256 - see `highlight-config`
 
 
 ## Install
 
-- Add `vim-alabaster` to your vim-plug config
+> [!note]
+> `nvim` > 9 min w/ tree-sitter
+
+### Plugged
+
+- Add `vim-alabaster` to your `vim-plug` config
   ```vim
   call plug#begin('~/.vim/plugged')
    ...
@@ -49,14 +56,22 @@ This has only been tested in this scenario.
    ...
   call plug#end()
 
-
-  colorscheme alabaster
-  # or
   colorscheme alabaster-dark
   ```
-- Open nvim
-- Ensure that you've installed the tree-sitter grammars you need
 
+### Lazy
+
+- Add `vim-alabaster` to your `lazy` config
+```lua
+{
+  'athomasoriginal/vim-alabaster',
+  lazy = false,                    -- load during startup
+  priority = 1000,                 -- load before other plugins
+  config = function ()             -- run colorscheme
+    vim.cmd([[colorscheme alabaster-dark]])
+  end,
+}
+```
 
 ## Building Colors
 
@@ -112,8 +127,10 @@ This has only been tested in this scenario.
 - [nvim syntax highlight]
 - [highlight args]
 
-
+[Features]: #features
 [Install]: #install
+[Plugged]: #plugged
+[Lazy]: #lazy
 [Build Colors]: #build-colors
 [Editing Colors]: #editing-colors
 [Iterm2 Users]: #iterm2-users
