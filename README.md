@@ -1,9 +1,8 @@
 # Vim Alabaster Theme
 
 > [!WARNING]
-> This is incomplete port of port of [Tonsky's Alabaster Theme] and many
-> changes likely to occur in the coming weeks. Please do not use if you're
-> looking for something stable.
+> This is an ncomplete port of [Tonsky's Alabaster Theme].  I use this daily,
+> but it's not right just yet.  Expect breaking changes.
 
 * [Features]
 * [Install]
