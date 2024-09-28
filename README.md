@@ -61,16 +61,16 @@
 ### Lazy
 
 - Add `vim-alabaster` to your `lazy` config
-```lua
-{
-  'athomasoriginal/vim-alabaster',
-  lazy = false,                    -- load during startup
-  priority = 1000,                 -- load before other plugins
-  config = function ()             -- run colorscheme
-    vim.cmd([[colorscheme alabaster-dark]])
-  end,
-}
-```
+  ```lua
+  {
+      'athomasoriginal/vim-alabaster',
+      lazy = false,                    -- load during startup
+      priority = 1000,                 -- load before other plugins
+      config = function ()             -- run colorscheme
+        vim.cmd([[colorscheme alabaster-dark]])
+      end,
+  }
+  ```
 
 ## Building Colors
 
