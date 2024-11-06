@@ -2,7 +2,7 @@
  {:name        "alabaster-dark"
   :languages   "Markdown, Clojure, JavaScript, CSS, Bash"
   :maintainer  "Thomas Mattacchione"
-  :last-change "Dec 18, 2022"
+  :last-change "Nov 06, 2024"
   :type        "dark"}
 
  :colors
@@ -12,20 +12,20 @@
   :yellow       "#e3e392"
   :red          "#AA3731"
   :green        "#9ed187"
-  :light-blue   "#204273"
+  :deep-blue    "#204273"
   :purple       "#d787cd"
   :orange       "#FFBC5D"
-  :gray         "#696969"
   ;; @note vertical column column, asteriks & #'s in markdown
-  :light-gray   "#383838"
-  :med-gray     "#c6cbd2"
+  :gray         "#383838"
   :green-gray   "#789395"
   :none         "NONE"}
 
  :highlights
  {"Normal"                    {:color :white :guibg :black}
   "Comment"                   :yellow
+  "Special"                   :white
   "SpecialComment"            :white
+  "Structure"                 :blue
   "Todo"                      :yellow
 
   "Number"                    :purple
@@ -35,6 +35,8 @@
   "String"                    :green
 
   "Boolean"                   :purple
+  ;; not (defn symbol-name) - the symbol-name part
+  "Identifier"                 :white
 
   ;; NerdTree top level folder path
   "Statement"                 :green-gray
@@ -43,7 +45,6 @@
   "PreCondit"                 :red
 
   "StorageClass"              :red
-  "Structure"                 :white
   "Typedef"                   :red
   "MoreMsg"                   :red
   "WarningMsg"                :red
@@ -56,7 +57,7 @@
   "SpellBad"                   {:color :white :gui "underline"}
   "Cursor"                     {:color :white :gui "reverse"}
 
-  "ColorColumn"                {:guibg :light-gray}
+  "ColorColumn"                {:guibg :gray}
   "CursorLineNr"               {:color :white :gui "bold"}
   "SignColumn"                 {:color "NONE" :guibg :black}
   "Conceal"                    :white
@@ -76,7 +77,7 @@
 
   ;; tab autocomplete popover
   "Pmenu"                      {:color :white :guibg :black}
-  "PmenuSel"                   {:guibg :light-blue}
+  "PmenuSel"                   {:guibg :deep-blue}
   "PmenuSbar"                  {:guibg :white}
   "PmenuThumb"                 {:guibg :white}
 
@@ -98,76 +99,81 @@
   ;; airline NORMAL > SPELL ---- - UTF-8 > - -
   "StatusLineNC"               {:color :white :guibg :white}
   ;; statusline - the inactive windows line
-  "StatusLine"                 {:color :white :guibg :light-gray}
+  "StatusLine"                 {:color :white :guibg :gray}
   ;; the middle bit
-  "CursorLine"                 {:color :white :guibg :light-gray}
+  "CursorLine"                 {:color :white :guibg :gray}
 
   ;; characters in the tabine
   "TabLine"                    :white
   ;; background color when selecting
-  "TabLineSel"                 :light-gray
+  "TabLineSel"                 :gray
   "TabLineFill"                {:guibg :black}
   "Terminal"                   {:color :white :guibg :back}
 
   ;; selection
-  "Visual"                     {:guibg :light-blue}
+  "Visual"                     {:guibg :deep-blue}
   "VisualNOS"                  {:guibg :black}
 
   "statusline"                 :none
 
-  ;; TREESITTER - EXTMARKS
+  ;; TELESCOPE
   ;; --------------------------------------------------------------------------
-  "DiagnosticUnnecessary"      {:color "NONE"}
+  "TelescopeMatching"  :orange
 
-  ;; TREESITTER - NERDTREE
-  ;; --------------------------------------------------------------------------
-  "title"                      :green
 
-  ;; TREESITTER - CLOJURE
+  ;; TREESITTER
   ;; --------------------------------------------------------------------------
-  ;; not (defn symbol-name) - the symbol-name part
-  "Identifier"                 :white
-  "@function.call"             :white
-  "@variable"                  :white
-  "@punctuation.bracket"       :white
-  "@punctuation.special"       :white
-  "@function.builtin"          :white
-  "@variable.builtin"          :white
-  "@conditional"               :white
-  "@method"                    :white
-  "@repeat"                    :white
-  ;; defn
-  "@keyword.function"          :white
-  ;; def
-  "@keyword"                   :white
-  ;; clj - require statement path
-  "Type"                       :white
-  "@include"                   :white
-  "@namespace"                 :white
-  "@lsp.type.namespace"        :white
-  ;; clj - escaped char like `\u201C`
-  "Character"                  :purple
-  "@symbol"                    :purple
-  "@string.escape"             :green-gray
-  "@string.special.symbol"     :purple
-  "@lsp.type.keyword"          :purple
-  "@lsp.mod.definition"        :blue
+  "@comment"              :yellow
+  "@constant"             :white
+  "@string"               :green
+  "@character"            :purple
+  "@number"               :purple
+  "@boolean"              :purple
+  "@float"                :purple
+  "@function"             :white
+  "@method"               :white
+  "@keyword"              :white
+  "@operator"             :green-gray
+  "@variable"             :white
+  "@variable.parameter"   :white
+  "@type"                 :white
+  "@property"             :white
+  "@conditional"          :white
+  "@repeat"               :white
+  "@label"                :white
+  "@namespace"            :white
+  "@include"              :white
+  "@preproc"              :white
+  "@exception"            :white
+  "@special"              :purple
+  "DiagnosticUnnecessary" {:color "NONE"} ;; TS Extmarks - highlight the token itself
 
-  ;; TREESITTER - C
-  ;; --------------------------------------------------------------------------
-  "@operator"                  :green-gray
-  "@punctuation.delimiter"     :green-gray
-  "@constant.builtin"          :green-gray
-  "@function"                  :blue
+  ;;; TREESITTER - CLOJURE
+  ;;; --------------------------------------------------------------------------
+  "@punctuation.bracket.clojure" :green-gray
+  "@punctuation.special.clojure" :green-gray
+
+
+  ;;; TREESITTER - C
+  ;;; --------------------------------------------------------------------------
+  "@type.builtin.c"        :white
+  "@function.c"            :blue
+  "@punctuation.delimiter" :green-gray
+  "@constant.builtin"      :green-gray
+
+
+  ;;; LSP - CLOJURE
+  ;;; --------------------------------------------------------------------------
+  "@lsp.mod.definition.clojure" :blue
+
 
   ;; TREESITTER - MARKDOWN
   ;; --------------------------------------------------------------------------
-  "@tag.html"                  :green-gray
   "@tag.delimiter.html"        :green-gray
-  "@label"                     :purple
   "@markup.raw.markdown_inline"           :green-gray
   "@markup.italic.markdown_inline"        :green-gray
   "@markup.strikethrough.markdown_inline" :green-gray
+  "@punctuation.special.markdown"         :green-gray
   "@markup.quote.markdown"     :white
   "@markup.link.label"         :blue
   "@markup.literal"            :green-gray
@@ -191,12 +197,15 @@
   "@markup.heading.5.marker"   :green-gray
   "@markup.heading.6.marker"   :green-gray
 
+
   ;; TREESITTER - JavaScript
   ;; --------------------------------------------------------------------------
   "@type.javascript"             :blue
   "@constructor.javascript"      :white
   "@keyword.operator.javascript" :green-gray
   "@string.escape.javascript"    :purple
+  "@variable.builtin.javascript" :white
+
 
   ;; TREESITTER - CSS
   ;; --------------------------------------------------------------------------
@@ -205,9 +214,15 @@
   "@function.css"      :white
   "@constant.css"      :white
 
+
   ;; TREESITTER - BASH
   ;; --------------------------------------------------------------------------
   "@keyword.directive.bash"   :yellow
   "@punctuation.special.bash" :green-gray
   "@label.bash"               :white
-  "@constant.bash"            :white}}
+  "@constant.bash"            :white
+
+
+  ;; TREESITTER - HTML
+  ;; --------------------------------------------------------------------------
+  "@tag.html" :white}} ;; also used in markdown files

@@ -3,9 +3,12 @@
 
 ;; Import
 (use '[clojure.set :only [intersection]])
-(use 'clojure.set)
+(use 'clojure.data)
 (require 'clojure.string)
 (import java.util.Date)
+
+
+(clojure.string/trim "")
 
 (ns test
   (:require
@@ -25,6 +28,10 @@
 (* 1 2)       ; => 2
 (/ 2 1)       ; => 2
 (+ 1 (- 3 2)) ; = 1 + (3 - 2) => 2
+
+;; keywords
+:hello-there
+:domain/hello-there
 
 ;; Comparison
 (= 1 1) ; => true
@@ -60,8 +67,11 @@
 (reduce conj [] '(3 2 1))
 {:a 1 :b 2 :c 3}
 (hash-map :a 1 :b 2 :c 3)
+
+;; @lsp.mod.definition.clojure
 (def stringmap {"a" 1, "b" 2, "c" 3})
 (def keymap {:a 1, :b 2, :c 3})
+
 (:b keymap) ; => 2
 (class #{1 2 3}) ; => clojure.lang.PersistentHashSet
 ; Test for existence by using the set as a function:

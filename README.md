@@ -24,6 +24,7 @@
   * [x] CSS syntax
   * [x] Bash Syntax
   * [x] Rust Syntax
+  * [x] HTML Syntax
 * [ ] Alabaster light theme (current progress: partial)
   * [ ] JS Syntax
   * [ ] Bash Syntax
@@ -31,11 +32,6 @@
   * [ ] Rust Syntax
   * [ ] Markdown Syntax
   * [ ] Alabaster airline (current progress: partial)
-* [ ] Correct color names
-  * [ ] light_gray is darker than med_gray
-  * [ ] Better name for `gray_green`
-* [ ] Alabaster airline (current progress: partial)
-* [ ] Polish LSP colors
 * Custom Syntax File Builder
   * [ ] Explore nicer approach to building/writing strings
   * [ ] Add fn to convert hex to x256 - see `highlight-config`
