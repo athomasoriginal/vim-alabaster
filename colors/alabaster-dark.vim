@@ -70,6 +70,7 @@ hi @function.c guifg=#5dafec ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm
 hi @variable.parameter guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @constant.css guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffDelete guifg=#0c1415 ctermfg=NONE guibg=#AA3731 ctermbg=NONE gui=NONE cterm=NONE
+hi @lsp.type.keyword.clojure guifg=#d787cd ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi FoldColumn guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi PmenuSbar guifg=NONE ctermfg=NONE guibg=#CECECE ctermbg=NONE gui=NONE cterm=NONE
 hi @function.css guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -89,6 +90,7 @@ hi Typedef guifg=#AA3731 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NON
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#383838 ctermbg=NONE gui=NONE cterm=NONE
 hi TabLine guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @namespace guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @string.special.symbol.clojure guifg=#d787cd ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TelescopeMatching guifg=#FFBC5D ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi EndOfBuffer guifg=#AA3731 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @markup.heading.1 guifg=#5dafec ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

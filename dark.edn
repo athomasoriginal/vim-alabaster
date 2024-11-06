@@ -150,8 +150,9 @@
 
   ;;; TREESITTER - CLOJURE
   ;;; --------------------------------------------------------------------------
-  "@punctuation.bracket.clojure" :green-gray
-  "@punctuation.special.clojure" :green-gray
+  "@string.special.symbol.clojure" :purple
+  "@punctuation.bracket.clojure"   :green-gray
+  "@punctuation.special.clojure"   :green-gray
 
 
   ;;; TREESITTER - C
@@ -165,6 +166,7 @@
   ;;; LSP - CLOJURE
   ;;; --------------------------------------------------------------------------
   "@lsp.mod.definition.clojure" :blue
+  "@lsp.type.keyword.clojure"   :purple
 
 
   ;; TREESITTER - MARKDOWN
