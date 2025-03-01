@@ -83,6 +83,7 @@ hi IncSearch guifg=#FFBC5D ctermfg=NONE guibg=NONE ctermbg=NONE gui=undercurl ct
 hi @comment guifg=#e3e392 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Folded guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @tag.css guifg=#CECECE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi @function.javascript guifg=#5dafec ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi ErrorMsg guifg=#AA3731 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @markup.strikethrough.markdown_inline guifg=#789395 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi @markup.heading.4.marker guifg=#789395 ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

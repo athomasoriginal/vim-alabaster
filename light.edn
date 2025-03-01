@@ -194,6 +194,7 @@
   ;; TREESITTER - JavaScript
   ;; --------------------------------------------------------------------------
   "@type.javascript"             :blue
+  "@function.javascript"         :blue
   "@constructor.javascript"      :back
   "@keyword.operator.javascript" :green-gray
   "@string.escape.javascript"    :purple
